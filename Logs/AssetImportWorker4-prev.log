@@ -1,0 +1,656 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.16f1 (7f45223012db) revision 8340770'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16219 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+S:\Unity Editor\2023.2.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+S:/Unity/GDAPDEV MP
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52178
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: S:/Unity/GDAPDEV MP
+S:/Unity/GDAPDEV MP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18464] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 757706941 [EditorId] 757706941 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18464] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 757706941 [EditorId] 757706941 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.16f1 (7f45223012db)
+[Subsystems] Discovering subsystems at path S:/Unity Editor/2023.2.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/Unity/GDAPDEV MP/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.5585
+Initialize mono
+Mono path[0] = 'S:/Unity Editor/2023.2.16f1/Editor/Data/Managed'
+Mono path[1] = 'S:/Unity Editor/2023.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'S:/Unity Editor/2023.2.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.003798 seconds.
+- Loaded All Assemblies, in  0.958 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 475 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.220 seconds
+Domain Reload Profiling: 2178ms
+	BeginReloadAssembly (321ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (429ms)
+			TypeCache.Refresh (425ms)
+				TypeCache.ScanAssembly (380ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1221ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1092ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (669ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.806 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.329 seconds
+Domain Reload Profiling: 3134ms
+	BeginReloadAssembly (730ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (899ms)
+		LoadAssemblies (702ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (434ms)
+			TypeCache.Refresh (379ms)
+				TypeCache.ScanAssembly (334ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (862ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (705ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4035 unused Assets / (1.3 MB). Loaded Objects now: 4605.
+Memory consumption went from 125.8 MB to 124.5 MB.
+Total: 16.164600 ms (FindLiveObjects: 0.694400 ms CreateObjectMapping: 0.697500 ms MarkObjects: 11.168100 ms  DeleteObjects: 3.601700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4015 unused Assets / (1.3 MB). Loaded Objects now: 4605.
+Memory consumption went from 118.0 MB to 116.7 MB.
+Total: 20.076000 ms (FindLiveObjects: 1.697400 ms CreateObjectMapping: 4.301300 ms MarkObjects: 11.976400 ms  DeleteObjects: 2.098300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 18111.374560 seconds.
+  path: Assets/Prefabs/fountain
+  artifactKey: Guid(ae5120d5a8e11f545ab5249ba35bc38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain using Guid(ae5120d5a8e11f545ab5249ba35bc38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8360059c7fcf7f3dcd49a3fddbb52105') in 0.0108793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046580 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.obj
+  artifactKey: Guid(7e47c62d0b771b640970a83e98c3b27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.obj using Guid(7e47c62d0b771b640970a83e98c3b27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18703092eca6cf155dc2da20177c32ae') in 0.3124716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.945468 seconds.
+  path: Assets/Prefabs/fountain/material.lib
+  artifactKey: Guid(a1e6ce08dfd6a0a498e368b2274ef9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/material.lib using Guid(a1e6ce08dfd6a0a498e368b2274ef9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Could not generate preview image
+ -> (artifact id: 'ac498aba1737f7b2cbf0e673b06bff6c') in 0.0166576 seconds
+  ERROR: Import of 'Assets/Prefabs/fountain/material.lib' had errors: Could not generate preview image
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.753078 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbd9d171f093d07f6d255347264451b5') in 0.0339791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.654380 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a36eea12730c1fa94e6eabf3aa18928') in 0.0022011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.072357 seconds.
+  path: Assets/Prefabs/fountain/New Prefab.prefab
+  artifactKey: Guid(5d5b5fcfedf9fa040bbfa79185c86fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/New Prefab.prefab using Guid(5d5b5fcfedf9fa040bbfa79185c86fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62c44852aaa582192d0242ba7ccbffcb') in 0.0021537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.774897 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec7150f25e69915e5cf53f4d9759903d') in 0.0267718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.627353 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fee63f8728617367890ba5541d63927') in 0.0315902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.187853 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9401842650e19ee5226bda1b5f8af7c1') in 0.011226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.843765 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c927e978761b2e092a38f13afa6c6487') in 0.0262459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.955775 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '235044e685667af070f3f3cd4c135a58') in 0.0167347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.840548 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '209a5fe692b5cb84486f23ef4aa2bd96') in 0.0114738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.674274 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0abc9346a1f4064c978300cae0ecf21d') in 0.0232408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 79
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.662556 seconds.
+  path: Assets/Prefabs/fountain/New Material.mat
+  artifactKey: Guid(7f4851eb98f92fe45a2da1492d936ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/New Material.mat using Guid(7f4851eb98f92fe45a2da1492d936ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '557b430893ff0af2d1a6f6727e31aee7') in 0.015292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.691428 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c62d2f921177c7036d160a93df297c6') in 0.0221301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.528191 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b04c010105e84793150ffb0db302492d') in 0.0136727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 80
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.147910 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5575df41c1ead0548f332e6b3afcc40') in 0.0173957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.190341 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3dc4dee9e376c654d7a4c5e70c93910') in 0.0232197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.711794 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6751ecc4dd370405eacf3445ab8c2742') in 0.0193959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.130499 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a44a824bc99fbfa3e9beb469363a8777') in 0.0144501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.692856 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50b13aab2d2185d222685b0c6687cd93') in 0.017639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.303486 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a791fde29ad4c7a76ba4e8dca51d9b7') in 0.0189963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.238131 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ff7b4ef524a1456d7485ce6cde86915') in 0.0263458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.537576 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '435c260ff8dc54b1f0c5b6640cec1f1f') in 0.0194904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.059902 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5bdb5fdd8cda448b12777f4d32ef6a2') in 0.0200927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.278755 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b55b12ce8ff370bc902ec7944893d7d') in 0.0318906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.298263 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3db38a91368291c185c54958dcaa926c') in 0.0281221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.355 seconds
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.134 seconds
+Domain Reload Profiling: 2488ms
+	BeginReloadAssembly (386ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (810ms)
+		LoadAssemblies (737ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (136ms)
+			BuildScriptInfoCaches (87ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1134ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (768ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (620ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'Toon/Lit Outline': fallback shader 'Toon/Lit' not found
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Toon/Basic Outline': fallback shader 'Toon/Basic' not found
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4180 unused Assets / (6.0 MB). Loaded Objects now: 4783.
+Memory consumption went from 133.5 MB to 127.4 MB.
+Total: 14.345400 ms (FindLiveObjects: 1.472800 ms CreateObjectMapping: 1.014300 ms MarkObjects: 6.234900 ms  DeleteObjects: 5.619200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1147.843410 seconds.
+  path: Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab
+  artifactKey: Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/fountain/low-poly_parisienne_water_fountain.prefab using Guid(4414309bcd75c4840bfee7aa986b51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e6c37292693dec96934973bee675648') in 0.156149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 85
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.858365 seconds.
+  path: Assets/Imported
+  artifactKey: Guid(e909cd95aa46d164e942076df32b2528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported using Guid(e909cd95aa46d164e942076df32b2528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3992cba4a11fd4449692275826578327') in 0.0009599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.566958 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack
+  artifactKey: Guid(ba962da43294e37468817a344497ce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack using Guid(ba962da43294e37468817a344497ce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '111a755542b630a1056c70e2b919712c') in 0.000729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.647147 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Cobblestone
+  artifactKey: Guid(f2cb99bc239833e478dcae76fb117995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Cobblestone using Guid(f2cb99bc239833e478dcae76fb117995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cdb893a40ba6adb25afc901701d3812') in 0.0009379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060774 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Cobblestone/Cobblestone 1.mat
+  artifactKey: Guid(d96e4e2e2f6279e46936aa61ecedb340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Cobblestone/Cobblestone 1.mat using Guid(d96e4e2e2f6279e46936aa61ecedb340) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c953a098a1419546a2e404daee47464') in 0.9413519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047702 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Cobblestone/Textures
+  artifactKey: Guid(fa7976a0aff49f94ca4c2a6603960ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Cobblestone/Textures using Guid(fa7976a0aff49f94ca4c2a6603960ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd38a5d6db7b968b66882bc568f4728f0') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042127 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1.png
+  artifactKey: Guid(caaa368906b5cfe49a25a8ba4dc505e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1.png using Guid(caaa368906b5cfe49a25a8ba4dc505e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7c88bc8a9f84d2afb23b971b6165238') in 0.1008711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Occlusion.png
+  artifactKey: Guid(3b667bb1b00753344b1bfe05b0bae13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Occlusion.png using Guid(3b667bb1b00753344b1bfe05b0bae13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d9751768f1bc986ea453c6903b41062') in 0.0852043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Normals.png
+  artifactKey: Guid(b53a8d460ad12fd44a8ac6247013bee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Cobblestone/Textures/Cobblestone 1 Normals.png using Guid(b53a8d460ad12fd44a8ac6247013bee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff3a98a136a7d3c779001879f7a8e3ac') in 0.0814782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.372137 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Cobblestone/Materials
+  artifactKey: Guid(acd8e673f72bb984c8fab21ee0693ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Cobblestone/Materials using Guid(acd8e673f72bb984c8fab21ee0693ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27834bbf0ef2fd37fc462490cfc38df9') in 0.0010223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040324 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Cobblestone/Materials/Cobblestone 1 Displacement.mat
+  artifactKey: Guid(d0d08e4a9544b42449939df7c5c42cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Cobblestone/Materials/Cobblestone 1 Displacement.mat using Guid(d0d08e4a9544b42449939df7c5c42cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9648a5f1ea93580d3ed28dd86c97faa4') in 0.0767508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.188185 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/ExampleScene
+  artifactKey: Guid(14b77a66851ac7a4890efb6207b3dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/ExampleScene using Guid(14b77a66851ac7a4890efb6207b3dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5279711fbca3d566be05742721cdde92') in 0.0008739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071206 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/ExampleScene/LightmapSnapshot.asset
+  artifactKey: Guid(67838de65ebf9974dadcf7776b67e144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/ExampleScene/LightmapSnapshot.asset using Guid(67838de65ebf9974dadcf7776b67e144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Lighting data asset ‘LightmapSnapshot’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+Lighting data asset ‘LightmapSnapshot’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '9a6b9a3935df5a9069e20472712e6b49') in 0.0013416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006160 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/ExampleScene/Reflection Probe-reflectionHDR.exr
+  artifactKey: Guid(e0a272cc4eacb5d4ebdd0363a0247f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/ExampleScene/Reflection Probe-reflectionHDR.exr using Guid(e0a272cc4eacb5d4ebdd0363a0247f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ab3f8bbe38321177561411b903fac17') in 0.056701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.179623 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Stone
+  artifactKey: Guid(045f0557aa2ddea40951a4c74c2e92aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Stone using Guid(045f0557aa2ddea40951a4c74c2e92aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0becade28092b2620592a60ef6d518ad') in 0.0010793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049340 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Stone/Stone 1.mat
+  artifactKey: Guid(2699dc05ec9bcec41bb57f10f6b90cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Stone/Stone 1.mat using Guid(2699dc05ec9bcec41bb57f10f6b90cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b76f5aa386a4f51f83d72cedd6aa75e3') in 0.6729089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.039218 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Brick
+  artifactKey: Guid(d3f0bf92b41964c45a64e56a90619d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Brick using Guid(d3f0bf92b41964c45a64e56a90619d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f42e0a44b410c159fa21021aca93fd1') in 0.0008028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041888 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Brick/Brick 1.mat
+  artifactKey: Guid(1d5939a464acf6647805c9f9dbfaa20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Brick/Brick 1.mat using Guid(1d5939a464acf6647805c9f9dbfaa20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98e88b17c913c0fb093951c66999f6a2') in 0.8660644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Brick/Brick 9.mat
+  artifactKey: Guid(fb25d135304ae554887d0257822703a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Brick/Brick 9.mat using Guid(fb25d135304ae554887d0257822703a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68aaa816f6f663b3de6d6a42258009f9') in 0.3758865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Brick/Brick 7a.mat
+  artifactKey: Guid(57d49a6bc5827a943bbec348151ae700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Brick/Brick 7a.mat using Guid(57d49a6bc5827a943bbec348151ae700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5bc1eaa58005528d5ca22d8704f8929') in 0.4092074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imported/PBS Materials Variety Pack/Brick/Brick 9b.mat
+  artifactKey: Guid(70af8cd4bbda19440ad8d958344aae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBS Materials Variety Pack/Brick/Brick 9b.mat using Guid(70af8cd4bbda19440ad8d958344aae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '333f059671f1403e96e95eccee06e321') in 0.3907986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,54 @@
+.unity-image {
+    --unity-image-size: scale-to-fit;
+}
+
+#BGParent {
+}
+
+#MainMenuBG {
+    --unity-image: url("project://database/Assets/BG/MainMenu.jpg?fileID=2800000&guid=3af2f4de567eb2145b0d8a63ed561580&type=3#MainMenu");
+    --unity-image-size: stretch-to-fill;
+    height: 100%;
+    width: 100%;
+}
+
+#ButtonHolder {
+    flex-grow: 1;
+    justify-content: center;
+    width: 139px;
+    align-self: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: auto;
+}
+
+#StartButton {
+    width: 300px;
+    height: 100px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    -unity-font-style: bold;
+}
+
+#DeveloperButton {
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    -unity-font-style: bold;
+}
+
+#QuitButton {
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 30px;
+    -unity-font-style: bold;
+}
