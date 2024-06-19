@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{33507DFA-E558-B5A5-D86F-30D0475214BD}</ProjectGuid>
+    <ProjectGuid>{6B216C4F-C16F-284B-A225-547550428B46}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -1251,15 +1251,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{8B2A3AFE-3EEF-E05A-821A-7AE181716897}</Project>
+      <Project>{9FC629A4-FBF6-49FC-53F8-70E0DDB9511B}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{0A6BC124-6D2B-F669-0443-996BA58C90B5}</Project>
+      <Project>{871088F7-8007-7429-3228-6BC949D5FF64}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{F58F01F4-58D4-263B-E451-C6CF7A85C59E}</Project>
+      <Project>{CBA5499B-AC6C-BBAF-EDB1-4D1FBD483871}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

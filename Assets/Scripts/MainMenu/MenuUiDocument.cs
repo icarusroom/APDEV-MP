@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuUiDocument : MonoBehaviour
 {
+    [SerializeField] GameObject DeveloperMenu;
     private VisualElement root;
     private Button StartButton;
     private Button DeveloperButton;
@@ -34,12 +35,18 @@ public class MenuUiDocument : MonoBehaviour
 
     private void OnDeveloperButtonClicked()
     {
-        
+        root.style.display = DisplayStyle.None;
+        DeveloperMenu.SetActive(true);
     }
 
     private void OnQuitButtonClicked()
     {
         Application.Quit();
+    }
+
+    public void DisplayMenu()
+    {
+        root.style.display = DisplayStyle.Flex;
     }
 
     // Update is called once per frame
