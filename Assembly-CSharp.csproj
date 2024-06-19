@@ -116,8 +116,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\ViewHandler\Popups\DialogBuilder.cs" />
     <Compile Include="Assets\Scripts\ViewHandler\ViewAnimation.cs" />
-    <Compile Include="Assets\Scripts\Broadcasting\Parameters.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Scripts\Broadcasting\Parameters.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\Broadcasting\ObserverList.cs" />
