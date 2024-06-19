@@ -1,10 +1,11 @@
 using UnityEngine;
 using System.Collections;
+using System.Runtime.CompilerServices;
 
 /*
  * Holder for event names
  * Created By: NeilDG
- */ 
+ */
 public class EventNames {
 	public const string ON_UPDATE_SCORE = "ON_UPDATE_SCORE";
 	public const string ON_CORRECT_MATCH = "ON_CORRECT_MATCH";
@@ -49,6 +50,11 @@ public class EventNames {
 	public class S18_Events {
 		public const string ON_FIRST_SCAN = "FIRST_TARGET_SCAN";
 		public const string ON_FINAL_SCAN = "ON_FINAL_SCAN";
+	}
+
+	public class NPC_Dialogue_Events
+	{
+		public const string ON_NPC_TAPPED = "ON NPC TAPPED";
 	}
 }
 
