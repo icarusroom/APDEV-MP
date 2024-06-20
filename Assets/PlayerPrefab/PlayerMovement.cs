@@ -80,7 +80,6 @@ public class PlayerMovement : MonoBehaviour
         Vector2 inputVector = moveAction.ReadValue<Vector2>();
         Vector3 inputDir = cameraTransform.forward * inputVector.y + cameraTransform.right * inputVector.x;
         inputDir.y = 0; // Keep the direction strictly horizontal
-        Debug.Log(inputDir);
 
         if (inputDir != Vector3.zero)
         {

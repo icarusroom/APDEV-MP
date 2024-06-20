@@ -34,6 +34,7 @@ public class NPC_TapReceiver : MonoBehaviour , ITappable
     {
         if(other.gameObject.CompareTag("Player"))
         {
+            EventBroadcaster.Instance.PostEvent(EventNames.NPC_Dialogue_Events.ON_NPC_NOT_IN_RANGE);
             Debug.Log("Player out of range");
             _inRange = false;
         }

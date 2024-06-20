@@ -55,7 +55,8 @@ public class EventNames {
 	public class NPC_Dialogue_Events
 	{
 		public const string ON_NPC_TAPPED = "ON NPC TAPPED";
-	}
+        public const string ON_NPC_NOT_IN_RANGE = "ON NPC NOT IN RANGE";
+    }
 }
 
 
