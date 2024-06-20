@@ -6,7 +6,7 @@ using TMPro;
 public class Succeed : MonoBehaviour
 {
     [SerializeField] TMP_Text succeedText ;
-    // Start is called before the first frame update
+
     void Start()
     {
         if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_NORMAL)
@@ -23,7 +23,6 @@ public class Succeed : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
