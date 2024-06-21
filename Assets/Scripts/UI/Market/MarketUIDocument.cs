@@ -30,7 +30,6 @@ public class MarketUIDocument : MonoBehaviour
 
         EventBroadcaster.Instance.AddObserver(EventNames.NPC_Dialogue_Events.ON_NPC_TAPPED, this.ShowDialogueBox);
         EventBroadcaster.Instance.AddObserver(EventNames.NPC_Dialogue_Events.ON_NPC_NOT_IN_RANGE, this.HideDialogueBox);
-
     }
 
     private void OnDestroy()
@@ -41,12 +40,26 @@ public class MarketUIDocument : MonoBehaviour
 
     private void OnOption1Clicked()
     {
-        Debug.Log("Option_1 Clicked");
+        //if (result >= 10)
+        //{
+        //    Debug.Log("Option_1 Success");
+        //}
+        //else
+        //{
+        //    Debug.Log("Option_1 Fail");
+        //}
     }
 
     private void OnOption2Clicked()
     {
-        Debug.Log("Option_2 Clicked");
+        //if (result >= 14)
+        //{
+        //    Debug.Log("Option_2 Success");
+        //}
+        //else
+        //{
+        //    Debug.Log("Option_2 Fail");
+        //}
     }
 
     private void OnOption3Clicked()
