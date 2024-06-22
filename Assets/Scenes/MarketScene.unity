@@ -4210,7 +4210,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c256fa5227b6a48b119c74b5ecac0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _NPCType: 0
+  _option1: 14
+  _option2: 10
+  _op1Type: PlayerIntelligence
+  _op2Type: PlayerDexterity
+  _op1Text: INT
+  _op2Text: DEX
   _NPC: {fileID: 437335455}
 --- !u!65 &437335457
 BoxCollider:
@@ -5235,7 +5240,6 @@ GameObject:
   - component: {fileID: 595166950}
   - component: {fileID: 595166949}
   - component: {fileID: 595166948}
-  - component: {fileID: 595166947}
   m_Layer: 0
   m_Name: NPC (1)
   m_TagString: NPC
@@ -5243,20 +5247,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &595166947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 595166946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9c256fa5227b6a48b119c74b5ecac0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _NPCType: 0
-  _NPC: {fileID: 595166946}
 --- !u!65 &595166948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6201,7 +6191,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c256fa5227b6a48b119c74b5ecac0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _NPCType: 0
+  _option1: 0
+  _option2: 0
+  _op1Type: 
+  _op2Type: 
+  _op1Text: 
+  _op2Text: 
   _NPC: {fileID: 672484045}
 --- !u!65 &672484047
 BoxCollider:
@@ -16239,7 +16234,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9c256fa5227b6a48b119c74b5ecac0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _NPCType: 0
+  _option1: 15
+  _option2: 12
+  _op1Type: PlayerCharisma
+  _op2Type: PlayerStrength
+  _op1Text: CHA
+  _op2Text: STR
   _NPC: {fileID: 2081623599}
 --- !u!1001 &2083317439
 PrefabInstance:
@@ -16857,7 +16857,6 @@ GameObject:
   - component: {fileID: 2121171789}
   - component: {fileID: 2121171788}
   - component: {fileID: 2121171787}
-  - component: {fileID: 2121171786}
   m_Layer: 0
   m_Name: NPC (2)
   m_TagString: NPC
@@ -16865,20 +16864,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2121171786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121171785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9c256fa5227b6a48b119c74b5ecac0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _NPCType: 0
-  _NPC: {fileID: 2121171785}
 --- !u!65 &2121171787
 BoxCollider:
   m_ObjectHideFlags: 0

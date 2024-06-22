@@ -44,13 +44,12 @@ public class MarketUIDocument : MonoBehaviour
     {
         marketManager.OnDiceButtonClicked("DiceRoll");
 
-        int PlayerSTR = PlayerPrefs.GetInt("PlayerStrength", 0);
-        int Dialogue1STR = 10;
+        int PlayerStat = PlayerPrefs.GetInt(DialogueStats.Op1Type, 0);
         int diceBonus;
 
-        if (PlayerSTR >= Dialogue1STR) {
-            if (PlayerSTR > 10) {
-                diceBonus = PlayerSTR - 10;
+        if (PlayerStat >= DialogueStats.Option1) {
+            if (PlayerStat > 10) {
+                diceBonus = PlayerStat - 10;
             }
             else{ 
                 diceBonus = 0; 
@@ -58,7 +57,7 @@ public class MarketUIDocument : MonoBehaviour
 
             int diceRoll = DiceRollProperties.DiceRollResult;
 
-            if (((diceRoll + diceBonus) >= Dialogue1STR) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED) {
+            if (((diceRoll + diceBonus) >= DialogueStats.Option1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED) {
                 //succeed
                 Debug.Log("[Option 1] : Success");
             }
@@ -75,7 +74,7 @@ public class MarketUIDocument : MonoBehaviour
         else {
             int diceRoll = DiceRollProperties.DiceRollResult;
 
-            if ((diceRoll >= Dialogue1STR + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED) {
+            if ((diceRoll >= DialogueStats.Option1 + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED) {
                 //success
                 Debug.Log("[Option 1] : Success");
             }
@@ -94,15 +93,14 @@ public class MarketUIDocument : MonoBehaviour
     {
         marketManager.OnDiceButtonClicked("DiceRoll");
 
-        int PlayerCHA = PlayerPrefs.GetInt("PlayerCharisma", 0);
-        int Dialogue1CHA = 14;
+        int PlayerStat = PlayerPrefs.GetInt(DialogueStats.Op2Type, 0);
         int diceBonus;
 
-        if (PlayerCHA >= Dialogue1CHA)
+        if (PlayerStat >= DialogueStats.Option2)
         {
-            if (PlayerCHA > 14)
+            if (PlayerStat > 10)
             {
-                diceBonus = PlayerCHA - 14;
+                diceBonus = PlayerStat - 10;
             }
             else
             {
@@ -111,7 +109,7 @@ public class MarketUIDocument : MonoBehaviour
 
             int diceRoll = DiceRollProperties.DiceRollResult;
 
-            if (((diceRoll + diceBonus) >= Dialogue1CHA) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
+            if (((diceRoll + diceBonus) >= DialogueStats.Option2) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
             {
                 //succeed
                 Debug.Log("[Option 2] : Success");
@@ -132,20 +130,20 @@ public class MarketUIDocument : MonoBehaviour
         {
             int diceRoll = DiceRollProperties.DiceRollResult;
 
-            if ((diceRoll >= Dialogue1CHA + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
+            if ((diceRoll >= DialogueStats.Option2 + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
             {
                 //success
-                Debug.Log("[Option 1] : Success");
+                Debug.Log("[Option 2] : Success");
             }
             else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL)
             {
                 //fail
-                Debug.Log("[Option 1] : Failed");
+                Debug.Log("[Option 2] : Failed");
             }
             else
             {
                 //fail
-                Debug.Log("[Option 1] : Failed");
+                Debug.Log("[Option 2] : Failed");
             }
         }
     }
@@ -170,11 +168,19 @@ public class MarketUIDocument : MonoBehaviour
     {
         Debug.Log("ShowDialogueBox: Showing the dialogue box");
         this._dialogueBox.style.visibility = Visibility.Visible;
+        this._option1.text = DialogueStats.Op1Text + " >= " + DialogueStats.Option1.ToString();
+        this._option2.text = DialogueStats.Op2Text + " >= " + DialogueStats.Option2.ToString();
+
+        Debug.Log(DialogueStats.Op1Type);
+        Debug.Log(DialogueStats.Option1);
+        Debug.Log(DialogueStats.Op1Text);
+        Debug.Log(DialogueStats.Op2Type);
+        Debug.Log(DialogueStats.Option2);
+        Debug.Log(DialogueStats.Op2Text);
     }
 
     public void OnDiceSceneClosed()
     {
         HideDialogueBox();
     }
-
 }

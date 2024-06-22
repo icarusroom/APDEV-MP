@@ -56,6 +56,8 @@ public class EventNames {
 	{
 		public const string ON_NPC_TAPPED = "ON NPC TAPPED";
         public const string ON_NPC_NOT_IN_RANGE = "ON NPC NOT IN RANGE";
+		public const string NPC_OPTION_1 = "NPC OPTION 1";
+        public const string NPC_OPTION_2 = "NPC OPTION 2";
     }
 
 	public class Player_Events
