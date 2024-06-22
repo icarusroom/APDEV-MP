@@ -13,6 +13,8 @@ public class MenuUiDocument : MonoBehaviour
     private Button DeveloperButton;
     private Button QuitButton;
 
+    [SerializeField] private AudioClip ButtonSFX;
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,18 +31,21 @@ public class MenuUiDocument : MonoBehaviour
 
     private void OnStartButtonClicked()
     {
+        SFXManager.instance.PlaySfxClip(ButtonSFX, transform, .1f);
         Debug.Log("Change Scene called");
         SceneManager.LoadScene("MarketScene");
     }
 
     private void OnDeveloperButtonClicked()
     {
+        SFXManager.instance.PlaySfxClip(ButtonSFX, transform, .1f);
         root.style.display = DisplayStyle.None;
         DeveloperMenu.SetActive(true);
     }
 
     private void OnQuitButtonClicked()
     {
+        SFXManager.instance.PlaySfxClip(ButtonSFX, transform, .1f);
         Application.Quit();
     }
 

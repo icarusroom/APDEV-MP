@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DiceFaceDetector : MonoBehaviour
 {
+
     private Rigidbody rb;
     private bool isRolling;
     private float rollCheckDelay = 2.0f;
@@ -41,9 +43,16 @@ public class DiceFaceDetector : MonoBehaviour
 
         if (highestCollider != null)
         {
-            Debug.Log("Top Face: " + highestCollider.name);
-            //make highestCollider into an int value for computations when called
+            SideProperty sideProperty = highestCollider.GetComponent<SideProperty>();
+            if (sideProperty != null)
+            {
+                int result = sideProperty.SideValue;
+                Debug.Log("Top Face: " + result);
+                DiceRollProperties.DiceRollResult = result;
+            }
+
         }
+
     }
 
     public void StartRolling()

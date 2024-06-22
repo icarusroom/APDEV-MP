@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class MarketUIDocument : MonoBehaviour
 {
+    [SerializeField] MarketManager marketManager;
     private VisualElement _root;
     private VisualElement _dialogueBox;
     private Button _option1;
@@ -40,6 +42,7 @@ public class MarketUIDocument : MonoBehaviour
 
     private void OnOption1Clicked()
     {
+        marketManager.OnDiceButtonClicked("DiceRoll");
         //if (result >= 10)
         //{
         //    Debug.Log("Option_1 Success");
@@ -52,6 +55,7 @@ public class MarketUIDocument : MonoBehaviour
 
     private void OnOption2Clicked()
     {
+        marketManager.OnDiceButtonClicked("DiceRoll");
         //if (result >= 14)
         //{
         //    Debug.Log("Option_2 Success");
@@ -81,4 +85,5 @@ public class MarketUIDocument : MonoBehaviour
     {
         this._dialogueBox.style.visibility = Visibility.Visible;
     }
+
 }
