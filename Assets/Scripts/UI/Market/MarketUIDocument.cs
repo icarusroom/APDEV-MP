@@ -43,27 +43,111 @@ public class MarketUIDocument : MonoBehaviour
     private void OnOption1Clicked()
     {
         marketManager.OnDiceButtonClicked("DiceRoll");
-        //if (result >= 10)
-        //{
-        //    Debug.Log("Option_1 Success");
-        //}
-        //else
-        //{
-        //    Debug.Log("Option_1 Fail");
-        //}
+
+        int PlayerSTR = PlayerPrefs.GetInt("PlayerStrength", 0);
+        int Dialogue1STR = 10;
+        int diceBonus;
+
+        if (PlayerSTR >= Dialogue1STR) {
+            if (PlayerSTR > 10) {
+                diceBonus = PlayerSTR - 10;
+            }
+            else{ 
+                diceBonus = 0; 
+            }
+
+            int diceRoll = DiceRollProperties.DiceRollResult;
+
+            if (((diceRoll + diceBonus) >= Dialogue1STR) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED) {
+                //succeed
+                Debug.Log("[Option 1] : Success");
+            }
+            else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL) {
+                //fail
+                Debug.Log("[Option 1] : Failed");
+            }
+            else {
+                //fail
+                Debug.Log("[Option 1] : Failed");
+            }
+        }
+
+        else {
+            int diceRoll = DiceRollProperties.DiceRollResult;
+
+            if ((diceRoll >= Dialogue1STR + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED) {
+                //success
+                Debug.Log("[Option 1] : Success");
+            }
+            else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL) {
+                //fail
+                Debug.Log("[Option 1] : Failed");
+            }
+            else {
+                //fail
+                Debug.Log("[Option 1] : Failed");
+            }
+        }
     }
 
     private void OnOption2Clicked()
     {
         marketManager.OnDiceButtonClicked("DiceRoll");
-        //if (result >= 14)
-        //{
-        //    Debug.Log("Option_2 Success");
-        //}
-        //else
-        //{
-        //    Debug.Log("Option_2 Fail");
-        //}
+
+        int PlayerCHA = PlayerPrefs.GetInt("PlayerCharisma", 0);
+        int Dialogue1CHA = 14;
+        int diceBonus;
+
+        if (PlayerCHA >= Dialogue1CHA)
+        {
+            if (PlayerCHA > 14)
+            {
+                diceBonus = PlayerCHA - 14;
+            }
+            else
+            {
+                diceBonus = 0;
+            }
+
+            int diceRoll = DiceRollProperties.DiceRollResult;
+
+            if (((diceRoll + diceBonus) >= Dialogue1CHA) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
+            {
+                //succeed
+                Debug.Log("[Option 1] : Success");
+            }
+            else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL)
+            {
+                //fail
+                Debug.Log("[Option 1] : Failed");
+            }
+            else
+            {
+                //fail
+                Debug.Log("[Option 1] : Failed");
+            }
+        }
+
+        else
+        {
+            int diceRoll = DiceRollProperties.DiceRollResult;
+
+            if ((diceRoll >= Dialogue1CHA + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
+            {
+                //success
+                Debug.Log("[Option 1] : Success");
+            }
+            else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL)
+            {
+                //fail
+                Debug.Log("[Option 1] : Failed");
+            }
+            else
+            {
+                //fail
+                Debug.Log("[Option 1] : Failed");
+            }
+        }
     }
 
     private void OnOption3Clicked()
@@ -78,12 +162,19 @@ public class MarketUIDocument : MonoBehaviour
 
     private void HideDialogueBox()
     {
+        Debug.Log("HideDialogueBox: Hiding the dialogue box");
         this._dialogueBox.style.visibility = Visibility.Hidden;
     }
 
     private void ShowDialogueBox()
     {
+        Debug.Log("ShowDialogueBox: Showing the dialogue box");
         this._dialogueBox.style.visibility = Visibility.Visible;
+    }
+
+    public void OnDiceSceneClosed()
+    {
+        HideDialogueBox();
     }
 
 }
