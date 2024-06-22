@@ -63,6 +63,7 @@ public class EventNames {
         public const string ON_CLASS_SELECTED = "ON_CLASS_SELECTED";
         public const string ON_SELECTION_CONFIRMED = "ON_SELECTION_CONFIRMED";
     }
+
 }
 
 

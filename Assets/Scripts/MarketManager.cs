@@ -1,21 +1,27 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public class MarketManager : MonoBehaviour
 {
     private Scene gameScene;
+    [SerializeField]
+    private MarketUIDocument marketUIDocument;
 
     void Start()
     {
         gameScene = SceneManager.GetSceneByName("MarketScene");
+        if (marketUIDocument == null)
+        {
+            Debug.LogError("MarketUIDocument reference not set in MarketManager.");
+        }
     }
 
     public void OnDiceButtonClicked(string sceneName)
     {
-
+        Debug.Log("OnDiceButtonClicked: Loading scene " + sceneName);
         SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
-
         GameSceneOBJ(gameScene, false);
     }
 
@@ -29,9 +35,13 @@ public class MarketManager : MonoBehaviour
             {
                 obj.SetActive(true); 
             }
+            else if (obj.name == "MarketUIDocument")
+            {
+                obj.SetActive(false);
+            }
             else
             {
-                obj.SetActive(active); 
+                obj.SetActive(active);
             }
 
         }
@@ -40,11 +50,16 @@ public class MarketManager : MonoBehaviour
 
     public void OnDiceSceneClosed()
     {
-
+        Debug.Log("OnDiceSceneClosed: Unloading DiceRoll scene");
         // Unload the Dice Scene
         SceneManager.UnloadSceneAsync("DiceRoll");
-
         // Re-enable all objects in the GameScene
         GameSceneOBJ(gameScene, true);
+
+        if (marketUIDocument != null)
+        {
+            Debug.Log("OnDiceSceneClosed: Hiding Dialogue Box");
+            marketUIDocument.OnDiceSceneClosed();
+        }
     }
 }
