@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2e3d7a0d220a13d4193bac49432465c1
   - enabled: 1
+    path: Assets/Scenes/ClassSelection.unity
+    guid: b42ee72eade443942961668dd8c1c5fc
+  - enabled: 1
     path: Assets/Scenes/MarketScene.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
   - enabled: 1

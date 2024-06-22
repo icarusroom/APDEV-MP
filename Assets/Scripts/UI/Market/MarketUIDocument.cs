@@ -114,17 +114,17 @@ public class MarketUIDocument : MonoBehaviour
             if (((diceRoll + diceBonus) >= Dialogue1CHA) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
             {
                 //succeed
-                Debug.Log("[Option 1] : Success");
+                Debug.Log("[Option 2] : Success");
             }
             else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL)
             {
                 //fail
-                Debug.Log("[Option 1] : Failed");
+                Debug.Log("[Option 2] : Failed");
             }
             else
             {
                 //fail
-                Debug.Log("[Option 1] : Failed");
+                Debug.Log("[Option 2] : Failed");
             }
         }
 

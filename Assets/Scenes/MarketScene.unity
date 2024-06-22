@@ -11260,6 +11260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76f4ab48f0b788246a6e9477970d5ff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  marketUIDocument: {fileID: 1767608074}
 --- !u!4 &1262334290
 Transform:
   m_ObjectHideFlags: 0
