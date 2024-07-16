@@ -64,6 +64,9 @@ public class EventNames {
 	{
         public const string ON_CLASS_SELECTED = "ON_CLASS_SELECTED";
         public const string ON_SELECTION_CONFIRMED = "ON_SELECTION_CONFIRMED";
+		public const string ON_MAINQUEST_PROGRESS = "ON_MAINQUEST_PROGRESS";
+        public const string ON_SUBQUEST_1QUEST_PROGRESS = "ON_SUBQUEST_1_PROGRESS";
+        public const string ON_SUBQUEST_2QUEST_PROGRESS = "ON_SUBQUEST_2_PROGRESS";
     }
 
 }

@@ -7,12 +7,15 @@ using UnityEngine.UIElements;
 public class MarketUIDocument : MonoBehaviour
 {
     [SerializeField] MarketManager marketManager;
+    [SerializeField] PlayerProgressManger progressManger;
     private VisualElement _root;
     private VisualElement _dialogueBox;
     private Button _option1;
     private Button _option2;
     private Button _option3;
     private Button _option4;
+
+    private int _questType;
 
     private void Start()
     {
@@ -61,10 +64,7 @@ public class MarketUIDocument : MonoBehaviour
                 //succeed
                 Debug.Log("[Option 1] : Success");
             }
-            else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL) {
-                //fail
-                Debug.Log("[Option 1] : Failed");
-            }
+
             else {
                 //fail
                 Debug.Log("[Option 1] : Failed");
@@ -78,10 +78,7 @@ public class MarketUIDocument : MonoBehaviour
                 //success
                 Debug.Log("[Option 1] : Success");
             }
-            else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL) {
-                //fail
-                Debug.Log("[Option 1] : Failed");
-            }
+
             else {
                 //fail
                 Debug.Log("[Option 1] : Failed");
@@ -114,11 +111,7 @@ public class MarketUIDocument : MonoBehaviour
                 //succeed
                 Debug.Log("[Option 2] : Success");
             }
-            else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL)
-            {
-                //fail
-                Debug.Log("[Option 2] : Failed");
-            }
+
             else
             {
                 //fail
@@ -135,11 +128,7 @@ public class MarketUIDocument : MonoBehaviour
                 //success
                 Debug.Log("[Option 2] : Success");
             }
-            else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL)
-            {
-                //fail
-                Debug.Log("[Option 2] : Failed");
-            }
+
             else
             {
                 //fail
