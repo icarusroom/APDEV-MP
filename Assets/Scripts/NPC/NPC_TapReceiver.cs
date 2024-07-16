@@ -52,19 +52,43 @@ public class NPC_TapReceiver : MonoBehaviour , ITappable
 
     private bool CheckPlayerProgress()
     {
-        if(this._questPart == PlayerProgress.MainQuestProgress)
+        if(this._questType == 0)
         {
-            return true;
+            if(this._questPart == PlayerProgress.MainQuestProgress)
+            {
+                Debug.Log("Main Quest Part 1");
+                return true;
+            }
+            else
+            {
+                Debug.Log("Progress to interact");
+            }
         }
 
-        if(this._questPart == PlayerProgress.SubQuest_1Progress)
+        if(this._questType == 1)
         {
-            return true;
+            if (this._questPart == PlayerProgress.SubQuest_1Progress)
+            {
+                Debug.Log("Sub Quest 1 Part 1");
+                return true;
+            }
+            else
+            {
+                Debug.Log("Progress to interact");
+            }
         }
 
-        if(this._questPart == PlayerProgress.SubQuest_2Progress)
+        if(this._questType == 2)
         {
-            return true;
+            if (this._questPart == PlayerProgress.SubQuest_2Progress)
+            {
+                Debug.Log("Sub Quest 2 Part 1");
+                return true;
+            }
+            else
+            {
+                Debug.Log("Progress to interact");
+            }
         }
 
         return false;
