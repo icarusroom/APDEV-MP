@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Gestures\Swipe\SwipeReceiver.cs" />
     <Compile Include="Assets\Scripts\Gestures\Pan\PanProperty.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Scripts\Character Stats\PlayerProgress.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scripts\Gestures\Drag\DragProperty.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\Scripts\Gestures\Tap\TapReceiver.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\UI\Market\MarketUIDocument.cs" />
+    <Compile Include="Assets\Scripts\Character Stats\PlayerProgressManager.cs" />
     <Compile Include="Assets\Scripts\ViewHandler\ViewNames.cs" />
     <Compile Include="Assets\Scripts\ViewHandler\Popups\TimedDialog.cs" />
     <Compile Include="Assets\Scripts\LoadManager\SceneNames.cs" />

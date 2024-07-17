@@ -4214,9 +4214,14 @@ MonoBehaviour:
   _option2: 10
   _op1Type: PlayerIntelligence
   _op2Type: PlayerDexterity
+  _dialogueHeader: 
+  _op1Description: 
+  _op2Description: 
   _op1Text: INT
   _op2Text: DEX
-  _NPC: {fileID: 437335455}
+  _questType: 0
+  _questPart: 0
+  _NPCType: 0
 --- !u!65 &437335457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6195,9 +6200,14 @@ MonoBehaviour:
   _option2: 0
   _op1Type: 
   _op2Type: 
+  _dialogueHeader: 
+  _op1Description: 
+  _op2Description: 
   _op1Text: 
   _op2Text: 
-  _NPC: {fileID: 672484045}
+  _questType: 0
+  _questPart: 0
+  _NPCType: 0
 --- !u!65 &672484047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9191,6 +9201,37 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &1058474591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058474592}
+  m_Layer: 0
+  m_Name: -------------MANAGERS------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1058474592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058474591}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.43666, y: -7.192829, z: -24.355701}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1076738298
 GameObject:
   m_ObjectHideFlags: 0
@@ -14687,6 +14728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   marketManager: {fileID: 1262334289}
+  progressManger: {fileID: 2116473341}
 --- !u!1001 &1767953745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16238,9 +16280,14 @@ MonoBehaviour:
   _option2: 12
   _op1Type: PlayerCharisma
   _op2Type: PlayerStrength
+  _dialogueHeader: 
+  _op1Description: 
+  _op2Description: 
   _op1Text: CHA
   _op2Text: STR
-  _NPC: {fileID: 2081623599}
+  _questType: 0
+  _questPart: 0
+  _NPCType: 0
 --- !u!1001 &2083317439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16671,6 +16718,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112301732}
   m_CullTransparentMesh: 1
+--- !u!1 &2116473339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2116473340}
+  - component: {fileID: 2116473341}
+  m_Layer: 0
+  m_Name: PlayerProgressManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2116473340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116473339}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.43666, y: -7.192829, z: -24.355701}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2116473341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116473339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1837e780c400a49b33f5e31dd2181b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2117594008
 GameObject:
   m_ObjectHideFlags: 0
@@ -17611,6 +17702,8 @@ SceneRoots:
   - {fileID: 1735781009}
   - {fileID: 1906639029}
   - {fileID: 134713875006919267}
+  - {fileID: 1058474592}
+  - {fileID: 2116473340}
   - {fileID: 2106756010}
   - {fileID: 2081623603}
   - {fileID: 437335461}
