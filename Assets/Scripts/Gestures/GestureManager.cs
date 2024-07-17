@@ -2,13 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GestureManager : MonoBehaviour
 {
     public static GestureManager Instance;
     private Touch _trackedFinger;
-    private Touch[] _trackedFingers = new Touch[2]; // Initialize the array
+    private Touch[] _trackedFingers = new Touch[2];
     private float _gestureTime;
 
     [SerializeField] private TapProperty _tapProperty;
@@ -26,22 +27,30 @@ public class GestureManager : MonoBehaviour
     [SerializeField] private SpreadProperty _spreadProperty;
     public EventHandler<SpreadEventArgs> OnSpread;
 
+    [SerializeField]
+    private RotateProperty _rotateProperty;
+    public EventHandler<RotateEventArgs> OnRotate;
+
+
     private Vector2 _startPoint = Vector2.zero;
     private Vector2 _endPoint = Vector2.zero;
 
     private void Update()
     {
-        switch (Input.touchCount)
+        if (Input.touchCount > 0)
         {
-            case 1:
-                Debug.Log("Called Single Finger Input");
-                CheckSingleFingerInput();
-                break;
+            switch (Input.touchCount)
+            {
+                case 1:
+                    Debug.Log("Called Single Finger Input");
+                    CheckSingleFingerInput();
+                    break;
 
-            case 2:
-                Debug.Log("Called Dual Finger Input");
-                CheckDualFingerInput();
-                break;
+                case 2:
+                    Debug.Log("Called Dual Finger Input");
+                    CheckDualFingerInput();
+                    break;
+            }
         }
     }
 
@@ -62,14 +71,14 @@ public class GestureManager : MonoBehaviour
         if (this.OnTap != null)
         {
             this.OnTap(this, args);
-        }
 
-        if (hitObject != null)
-        {
-            ITappable handler = hitObject.GetComponent<ITappable>();
-            if (handler != null)
+            if (hitObject != null)
             {
-                handler.OnTap(args);
+                ITappable handler = hitObject.GetComponent<ITappable>();
+                if (handler != null)
+                {
+                    handler.OnTap(args);
+                }
             }
         }
     }
@@ -150,8 +159,11 @@ public class GestureManager : MonoBehaviour
 
         if (this.OnPan != null)
         {
+            Debug.Log("PANNING");
             this.OnPan(this, args);
         }
+
+
     }
 
     private void CheckSpread()
@@ -170,25 +182,26 @@ public class GestureManager : MonoBehaviour
 
     private void FireSpreadEvent(float distanceDelta)
     {
+        Vector2 midPoint = GetMidPoint(_trackedFingers[0].position, _trackedFingers[1].position);
+        GameObject hitObject = GetHitObject(midPoint);
         SpreadEventArgs args = new SpreadEventArgs(distanceDelta);
-
-        if (this.OnSpread != null)
-        {
-            this.OnSpread(this, args);
-        }
-
-        Vector2 objPos = (this._trackedFingers[0].position + this._trackedFingers[1].position) / 2;
-        GameObject hitObject = this.GetHitObject(objPos);
 
         if (hitObject != null)
         {
             ISpreadable handler = hitObject.GetComponent<ISpreadable>();
+
             if (handler != null)
             {
-                handler.OnSpread(args);
+                if (distanceDelta > 0)
+                {
+                    Debug.Log("SPREAD");
+                    handler.OnSpread(args);
+                }
+  
             }
         }
     }
+
 
     private Vector2 GetPreviousPoint(Touch finger)
     {
@@ -259,6 +272,15 @@ public class GestureManager : MonoBehaviour
         {
             this.CheckSpread();
         }
+
+        switch (this._trackedFingers[0].phase, this._trackedFingers[1].phase)
+        {
+            case (TouchPhase.Moved, _):
+
+            case (_, TouchPhase.Moved):
+                this.CheckRotate();
+                break;
+        }
     }
 
     private GameObject GetHitObject(Vector2 screenPoint)
@@ -273,6 +295,49 @@ public class GestureManager : MonoBehaviour
         }
 
         return hitObject;
+    }
+
+    private void CheckRotate()
+    {
+
+        Vector2 previousDifference = GetPreviousPoint(_trackedFingers[0]) - GetPreviousPoint(_trackedFingers[1]);
+        Vector2 currentDifference = _trackedFingers[0].position - _trackedFingers[1].position;
+
+        float angle = Vector2.Angle(previousDifference, currentDifference);
+
+        if (Vector2.Distance(this._trackedFingers[0].position, this._trackedFingers[1].position) >= (this._rotateProperty.MinDistance * Screen.dpi)
+            && (Math.Abs(angle) >= this._rotateProperty.MinRotationChange))
+        {
+            this.FireRotateEvent(angle, previousDifference, currentDifference);
+        }
+
+    }
+    private void FireRotateEvent(float angle, Vector2 previousDifference, Vector2 currentDifference)
+    {
+
+        Vector3 cross = Vector3.Cross(previousDifference, currentDifference);
+        ERotateDirection rotation;
+
+        if (cross.z > 0)
+            rotation = ERotateDirection.COUNTERCLOCKWISE;
+        else
+            rotation = ERotateDirection.CLOCKWISE;
+
+        Vector2 midPoint = this.GetMidPoint(this._trackedFingers[0].position, this._trackedFingers[1].position);
+        GameObject hitObject = this.GetHitObject(midPoint);
+
+        RotateEventArgs args = new RotateEventArgs(this._trackedFingers, rotation, angle, hitObject);
+
+        if (this.OnRotate != null)
+        {
+            this.OnRotate(this, args);
+        }
+
+    }
+
+    private Vector2 GetMidPoint(Vector2 pointA, Vector2 pointB)
+    {
+        return (pointA + pointB) / 2;
     }
 
     private void Awake()

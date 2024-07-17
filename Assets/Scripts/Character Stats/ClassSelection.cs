@@ -32,6 +32,11 @@ public class ClassSelection : MonoBehaviour
         LoadMarketScene();
     }
 
+    public void OnBackButtonClicked()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     private void SetPlayerClass(ClassStats classStats)
     {
         PlayerPrefs.SetString("PlayerClassName", classStats.className);

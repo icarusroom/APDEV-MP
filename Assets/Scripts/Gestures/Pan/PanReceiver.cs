@@ -9,18 +9,14 @@ public class PanReceiver : MonoBehaviour
 
     public void OnPan(object sender, PanEventArgs args)
     {
-        // Check if there are two tracked fingers
-        if (args.TrackedFingers.Length >= 2)
-        {
-            // Calculate the movement vector based on the difference between the two finger positions
-            Vector2 moveVector = args.TrackedFingers[1].position - args.TrackedFingers[0].position;
+        Vector2 deltaPosition0 = args.TrackedFingers[0].deltaPosition;
+        Vector2 deltaPosition1 = args.TrackedFingers[1].deltaPosition;
 
-            // Normalize the movement vector and scale it by the speed
-            Vector3 moveDirection = new Vector3(moveVector.x, 0, moveVector.y).normalized * _speed;
+        Vector2 averagePosisition = (deltaPosition0 + deltaPosition1) / 2;
+        averagePosisition = averagePosisition / Screen.dpi;
 
-            // Apply the movement to the camera's position
-            transform.Translate(moveDirection, Space.World);
-        }
+        Vector3 change = averagePosisition * (this._speed * Time.deltaTime);
+        this.transform.position += change;
     }
 
     // Start is called before the first frame update
