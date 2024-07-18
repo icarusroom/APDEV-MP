@@ -10,11 +10,14 @@ public class Teleporter : MonoBehaviour
     public bool swiped;
     private bool playerInTrigger;
 
+    private GameObject player;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             playerInTrigger = true;
+            player = other.gameObject;
             TryTeleport();
         }
     }
@@ -31,7 +34,7 @@ public class Teleporter : MonoBehaviour
     {
         if (playerInTrigger && swiped)
         {
-            Player.transform.position = spawnPoint.position;
+            player.transform.position = spawnPoint.position;
             swiped = false;
             playerInTrigger = false; 
         }
