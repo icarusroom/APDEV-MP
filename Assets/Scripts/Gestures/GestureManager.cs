@@ -109,7 +109,7 @@ public class GestureManager : MonoBehaviour
                 ISwipeable handler = hitObject.GetComponent<ISwipeable>();
                 if (handler != null)
                 {
-                    handler.OnSwipe(args);
+                    handler.OnSwipe (args);
                 }
             }
         }
