@@ -25,7 +25,7 @@ public class DiceFaceDetector : MonoBehaviour
         }
     }
 
-    void CheckTopFace()
+    public void CheckTopFace()
     {
         BoxCollider[] colliders = GetComponentsInChildren<BoxCollider>();
         BoxCollider highestCollider = null;
@@ -52,7 +52,6 @@ public class DiceFaceDetector : MonoBehaviour
             }
 
         }
-
     }
 
     public void StartRolling()

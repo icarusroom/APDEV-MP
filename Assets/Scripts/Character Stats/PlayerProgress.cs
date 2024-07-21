@@ -24,4 +24,20 @@ public static class PlayerProgress
         get { return subQuest_2Progress; }
         set { subQuest_2Progress = value; }
     }
+
+    private static int positiveChoiceCounter;
+    public static int PositiveChoiceCounter
+    {
+        get { return positiveChoiceCounter; }
+        set { positiveChoiceCounter = value; }
+    }
+
+    private static int negativeChoiceCounter;
+    public static int NegativeChoiceCounter
+    {
+        get { return negativeChoiceCounter; }
+        set { negativeChoiceCounter = value; }
+    }
+    
+
 }

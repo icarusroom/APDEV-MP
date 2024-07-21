@@ -10,17 +10,17 @@ public class MarketUIDocument : MonoBehaviour
     [SerializeField] PlayerProgressManger progressManger;
     private VisualElement _root;
     private VisualElement _dialogueBox;
+    private Label _dialogueHeader;
     private Button _option1;
     private Button _option2;
     private Button _option3;
     private Button _option4;
 
-    private int _questType;
-
     private void Start()
     {
         this._root = GetComponent<UIDocument>().rootVisualElement;
         this._dialogueBox = this._root.Q<VisualElement>("DialogueBoxContainer");
+        this._dialogueHeader = this._root.Q<Label>("DialogueHeader");
         this._option1 = this._root.Q<Button>("Option_1");
         this._option2 = this._root.Q<Button>("Option_2");
         this._option3 = this._root.Q<Button>("Option_3");
@@ -50,40 +50,60 @@ public class MarketUIDocument : MonoBehaviour
         int PlayerStat = PlayerPrefs.GetInt(DialogueStats.Op1Type, 0);
         int diceBonus;
 
-        if (PlayerStat >= DialogueStats.Option1) {
-            if (PlayerStat > 10) {
+        if (PlayerStat >= DialogueStats.Option1)
+        {
+            if (PlayerStat > 10)
+            {
                 diceBonus = PlayerStat - 10;
             }
-            else{ 
+
+            else
+            { 
                 diceBonus = 0; 
             }
 
             int diceRoll = DiceRollProperties.DiceRollResult;
 
-            if (((diceRoll + diceBonus) >= DialogueStats.Option1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED) {
-                //succeed
+            if (((diceRoll + diceBonus) >= DialogueStats.Option1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
+            {
+                this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
+                PlayerProgress.PositiveChoiceCounter++;
                 Debug.Log("[Option 1] : Success");
             }
 
             else {
-                //fail
+                if (DialogueStats.NpcType == 1)
+                {
+                    this.DiceRollSuccessful(DialogueStats.QuestType);
+                    PlayerProgress.NegativeChoiceCounter++;
+                }
                 Debug.Log("[Option 1] : Failed");
             }
         }
 
-        else {
+        else
+        {
             int diceRoll = DiceRollProperties.DiceRollResult;
 
-            if ((diceRoll >= DialogueStats.Option1 + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED) {
-                //success
+            if ((diceRoll >= DialogueStats.Option1 + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
+            {
+                this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
+                PlayerProgress.PositiveChoiceCounter++;
                 Debug.Log("[Option 1] : Success");
             }
 
-            else {
-                //fail
+            else
+            {
+                if (DialogueStats.NpcType == 1)
+                {
+                    this.DiceRollSuccessful(DialogueStats.QuestType);
+                    PlayerProgress.NegativeChoiceCounter++;
+                }
                 Debug.Log("[Option 1] : Failed");
             }
         }
+
+        NPCManager.Instance.DisableDialogue(1); //This option is disabled after choosing it.
     }
 
     private void OnOption2Clicked()
@@ -108,7 +128,8 @@ public class MarketUIDocument : MonoBehaviour
 
             if (((diceRoll + diceBonus) >= DialogueStats.Option2) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
             {
-                //succeed
+                this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
+                PlayerProgress.NegativeChoiceCounter++;
                 Debug.Log("[Option 2] : Success");
             }
 
@@ -125,7 +146,8 @@ public class MarketUIDocument : MonoBehaviour
 
             if ((diceRoll >= DialogueStats.Option2 + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
             {
-                //success
+                this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
+                PlayerProgress.NegativeChoiceCounter++;
                 Debug.Log("[Option 2] : Success");
             }
 
@@ -135,11 +157,13 @@ public class MarketUIDocument : MonoBehaviour
                 Debug.Log("[Option 2] : Failed");
             }
         }
+
+        NPCManager.Instance.DisableDialogue(2);
     }
 
     private void OnOption3Clicked()
     {
-        Debug.Log("Option_3 Clicked");
+        //Combat script
     }
 
     private void OnOption4Clicked()
@@ -149,23 +173,67 @@ public class MarketUIDocument : MonoBehaviour
 
     public void HideDialogueBox()
     {
-        Debug.Log("HideDialogueBox: Hiding the dialogue box");
         this._dialogueBox.style.visibility = Visibility.Hidden;
+        this._option1.style.visibility = Visibility.Hidden;
+        this._option2.style.visibility = Visibility.Hidden;
+        this._option3.style.visibility = Visibility.Hidden;
+        this._option4.style.visibility = Visibility.Hidden;
     }
 
     private void ShowDialogueBox()
     {
-        Debug.Log("ShowDialogueBox: Showing the dialogue box");
-        this._dialogueBox.style.visibility = Visibility.Visible;
-        this._option1.text = DialogueStats.Op1Text + " >= " + DialogueStats.Option1.ToString();
-        this._option2.text = DialogueStats.Op2Text + " >= " + DialogueStats.Option2.ToString();
+        this._dialogueHeader.text = DialogueStats.DialogueHeader;
+        this.UpdateDialogueOptions();
+    }
 
-        Debug.Log(DialogueStats.Op1Type);
-        Debug.Log(DialogueStats.Option1);
-        Debug.Log(DialogueStats.Op1Text);
-        Debug.Log(DialogueStats.Op2Type);
-        Debug.Log(DialogueStats.Option2);
-        Debug.Log(DialogueStats.Op2Text);
+    private void UpdateDialogueOptions()
+    {
+        this._option1.style.visibility = Visibility.Visible;
+        this._option2.style.visibility = Visibility.Visible;
+        this._option3.style.visibility = Visibility.Visible;
+        this._option4.style.visibility = Visibility.Visible;
+
+        if(DialogueStats.NpcType == 0)
+        {
+            this._option1.text = DialogueStats.Op1Description + "\n" + DialogueStats.Op1Text + " >= " + DialogueStats.Option1.ToString();
+            this._option2.text = DialogueStats.Op2Description + "\n" + DialogueStats.Op2Text + " >= " + DialogueStats.Option2.ToString();
+            this._option3.text = "Initiate Combat";
+            this._option4.text = "Leave";
+        }
+
+        if (DialogueStats.NpcType == 1)
+        {
+            this._option1.text = DialogueStats.Op1Description + "\n" + DialogueStats.Op1Text + " >= " + DialogueStats.Option1.ToString();
+            this._option2.style.visibility = Visibility.Hidden;
+            this._option3.style.visibility = Visibility.Hidden;
+            this._option4.text = "Leave";
+        }
+
+        if (!NPCManager.Instance.IsOptionAvailable(1))
+        {
+            this._option1.style.visibility = Visibility.Hidden;
+        }
+
+        if (!NPCManager.Instance.IsOptionAvailable(2))
+        {
+            this._option2.style.visibility = Visibility.Hidden;
+        }
+    }
+
+    private void DiceRollSuccessful(int questType)
+    {
+        switch (questType)
+        {
+            case 0:
+                PlayerProgressManger.Instance.MainQuestProgress();
+                break;
+            case 1:
+                PlayerProgressManger.Instance.SubQuest_1Progress();
+                break;
+            case 2:
+                PlayerProgressManger.Instance.SubQuest_2Progress();
+                break;
+        }
     }
 
     public void OnDiceSceneClosed()

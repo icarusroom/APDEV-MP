@@ -5,7 +5,6 @@ using UnityEngine;
 public static class DiceRollProperties
 {
     private static int diceRollResult;
-
     public static int DiceRollResult
     {
         get { return diceRollResult; }

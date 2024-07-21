@@ -72,13 +72,14 @@ public class GestureManager : MonoBehaviour
         {
             this.OnTap(this, args);
 
-            if (hitObject != null)
+        }
+
+        if (hitObject != null)
+        {
+            ITappable handler = hitObject.GetComponent<ITappable>();
+            if (handler != null)
             {
-                ITappable handler = hitObject.GetComponent<ITappable>();
-                if (handler != null)
-                {
-                    handler.OnTap(args);
-                }
+                handler.OnTap(args);
             }
         }
     }
