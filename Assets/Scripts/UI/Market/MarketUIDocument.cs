@@ -42,13 +42,20 @@ public class MarketUIDocument : MonoBehaviour
         EventBroadcaster.Instance.RemoveObserver(EventNames.NPC_Dialogue_Events.ON_NPC_TAPPED);
         EventBroadcaster.Instance.RemoveObserver(EventNames.NPC_Dialogue_Events.ON_NPC_NOT_IN_RANGE);
     }
-
     private void OnOption1Clicked()
+    {
+        StartCoroutine(HandleOption1());
+    }
+
+    IEnumerator HandleOption1()
     {
         marketManager.OnDiceButtonClicked("DiceRoll");
 
+        yield return new WaitUntil(() => MarketManager.Instance.IsDiceRolled);
+
         int PlayerStat = PlayerPrefs.GetInt(DialogueStats.Op1Type, 0);
         int diceBonus;
+        int diceRoll = DiceRollProperties.DiceRollResult;
 
         if (PlayerStat >= DialogueStats.Option1)
         {
@@ -58,11 +65,9 @@ public class MarketUIDocument : MonoBehaviour
             }
 
             else
-            { 
-                diceBonus = 0; 
+            {
+                diceBonus = 0;
             }
-
-            int diceRoll = DiceRollProperties.DiceRollResult;
 
             if (((diceRoll + diceBonus) >= DialogueStats.Option1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
             {
@@ -71,7 +76,8 @@ public class MarketUIDocument : MonoBehaviour
                 Debug.Log("[Option 1] : Success");
             }
 
-            else {
+            else
+            {
                 if (DialogueStats.NpcType == 1)
                 {
                     this.DiceRollSuccessful(DialogueStats.QuestType);
@@ -83,8 +89,6 @@ public class MarketUIDocument : MonoBehaviour
 
         else
         {
-            int diceRoll = DiceRollProperties.DiceRollResult;
-
             if ((diceRoll >= DialogueStats.Option1 + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
             {
                 this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
@@ -104,14 +108,23 @@ public class MarketUIDocument : MonoBehaviour
         }
 
         NPCManager.Instance.DisableDialogue(1); //This option is disabled after choosing it.
+        MarketManager.Instance.IsDiceRolled = false;
     }
 
     private void OnOption2Clicked()
     {
+        StartCoroutine(HandleOption2());
+    }
+
+    IEnumerator HandleOption2()
+    {
         marketManager.OnDiceButtonClicked("DiceRoll");
+
+        yield return new WaitUntil(() => MarketManager.Instance.IsDiceRolled);
 
         int PlayerStat = PlayerPrefs.GetInt(DialogueStats.Op2Type, 0);
         int diceBonus;
+        int diceRoll = DiceRollProperties.DiceRollResult;
 
         if (PlayerStat >= DialogueStats.Option2)
         {
@@ -123,8 +136,6 @@ public class MarketUIDocument : MonoBehaviour
             {
                 diceBonus = 0;
             }
-
-            int diceRoll = DiceRollProperties.DiceRollResult;
 
             if (((diceRoll + diceBonus) >= DialogueStats.Option2) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
             {
@@ -142,8 +153,6 @@ public class MarketUIDocument : MonoBehaviour
 
         else
         {
-            int diceRoll = DiceRollProperties.DiceRollResult;
-
             if ((diceRoll >= DialogueStats.Option2 + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
             {
                 this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
@@ -153,12 +162,12 @@ public class MarketUIDocument : MonoBehaviour
 
             else
             {
-                //fail
                 Debug.Log("[Option 2] : Failed");
             }
         }
 
         NPCManager.Instance.DisableDialogue(2);
+        MarketManager.Instance.IsDiceRolled = false;
     }
 
     private void OnOption3Clicked()

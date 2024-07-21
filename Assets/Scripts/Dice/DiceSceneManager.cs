@@ -12,7 +12,6 @@ public class DiceSceneManager : MonoBehaviour
             {
                 marketManager.OnDiceSceneClosed();
             }
-
         }
     }
 }
