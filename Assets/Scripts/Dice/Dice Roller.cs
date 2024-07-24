@@ -5,18 +5,23 @@ using UnityEngine;
 public class DiceRoller : MonoBehaviour
 {
     public GameObject dice;
-    public float shakeThreshold = 2.0f; // Threshold to detect shake
-    public float shakeTimeout = 1.0f; // Time window to accept shakes
+    public float shakeThreshold = 2.0f; 
+    public float shakeTimeout = 1.0f; 
 
     private Vector3 acceleration;
     private float lastShakeTime;
     private DiceFaceDetector diceFaceDetector;
     private bool hasRolled;
 
+    [SerializeField] private GameObject finishButton;
+    [SerializeField] private GameObject shakeText;
+
     void Start()
     {
         diceFaceDetector = dice.GetComponent<DiceFaceDetector>();
         hasRolled = false;
+        finishButton.SetActive(false);
+        shakeText.SetActive(true);
     }
 
     void Update()
@@ -29,6 +34,7 @@ public class DiceRoller : MonoBehaviour
             {
                 lastShakeTime = Time.time;
                 RollDice();
+                shakeText.SetActive(false);
             }
         }
     }
@@ -49,5 +55,10 @@ public class DiceRoller : MonoBehaviour
         }
 
         hasRolled = true;
+
+        if(hasRolled)
+        {
+            finishButton.SetActive(true);
+        }
     }
 }

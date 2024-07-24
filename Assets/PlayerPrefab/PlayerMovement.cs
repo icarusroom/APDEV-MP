@@ -36,6 +36,8 @@ public class PlayerMovement : MonoBehaviour
     private PlayerInput playerInput;
     private InputAction moveAction;
 
+    [SerializeField] private Animator animator;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -84,6 +86,11 @@ public class PlayerMovement : MonoBehaviour
         if (inputDir != Vector3.zero)
         {
             playerModel.forward = Vector3.Slerp(playerModel.forward, inputDir.normalized, Time.deltaTime * rotationSpeed);
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
         }
     }
 

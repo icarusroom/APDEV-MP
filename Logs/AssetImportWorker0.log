@@ -15,7 +15,7 @@ S:/Repositories/APDEV-MP
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54855
+65304
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ S:/Repositories/APDEV-MP
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29900] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1800473045 [EditorId] 1800473045 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [29900] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1800473045 [EditorId] 1800473045 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1744] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1089045435 [EditorId] 1089045435 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1744] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1089045435 [EditorId] 1089045435 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-1MODOC2S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 87.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.16f1 (7f45223012db)
 [Subsystems] Discovering subsystems at path S:/Unity Editor/2023.2.16f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'S:/Unity Editor/2023.2.16f1/Editor/Data/Managed'
 Mono path[1] = 'S:/Unity Editor/2023.2.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'S:/Unity Editor/2023.2.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -95,48 +95,46 @@ Registering precompiled unity dll's ...
 Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: S:/Unity Editor/2023.2.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.006643 seconds.
-- Loaded All Assemblies, in  1.010 seconds
+Registered in 0.004174 seconds.
+- Loaded All Assemblies, in  0.524 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-[usbmuxd] Attached: 1 00008110-0018394C3E3A401E
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 430 ms
+Android Extension - Scanning For ADB Devices 338 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  1.037 seconds
-Domain Reload Profiling: 2047ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  0.893 seconds
+Domain Reload Profiling: 1417ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (246ms)
+	RebuildCommonClasses (51ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (461ms)
-		LoadAssemblies (219ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (162ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (457ms)
-			TypeCache.Refresh (455ms)
-				TypeCache.ScanAssembly (437ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (201ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1038ms)
+	FinalizeReload (893ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (956ms)
+		SetupLoadedEditorAssemblies (820ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (630ms)
+			InitializePlatformSupportModulesInManaged (486ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -159,12 +157,12 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image S:\Repositories\APDEV-MP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image S:\Repositories\APDEV-MP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.215 seconds
-Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.087 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -173,74 +171,271 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.098 seconds
-Domain Reload Profiling: 2312ms
-	BeginReloadAssembly (446ms)
+- Finished resetting the current domain, in  1.025 seconds
+Domain Reload Profiling: 2111ms
+	BeginReloadAssembly (418ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (640ms)
-		LoadAssemblies (516ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (547ms)
+		LoadAssemblies (435ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (268ms)
-			TypeCache.Refresh (209ms)
-				TypeCache.ScanAssembly (188ms)
-			BuildScriptInfoCaches (38ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1099ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (170ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1026ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (753ms)
+		SetupLoadedEditorAssemblies (737ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (619ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (610ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4421 unused Assets / (2.2 MB). Loaded Objects now: 5026.
+Unloading 4423 unused Assets / (2.2 MB). Loaded Objects now: 5028.
 Memory consumption went from 144.2 MB to 142.0 MB.
-Total: 12.459100 ms (FindLiveObjects: 1.039400 ms CreateObjectMapping: 0.876900 ms MarkObjects: 8.171800 ms  DeleteObjects: 2.368200 ms)
+Total: 10.475100 ms (FindLiveObjects: 0.779200 ms CreateObjectMapping: 0.833000 ms MarkObjects: 6.085400 ms  DeleteObjects: 2.775200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18370.484412 seconds.
-  path: Assets/PlayerHolder.prefab
-  artifactKey: Guid(20b03920ea9ac8e479439848754d472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PlayerHolder.prefab using Guid(20b03920ea9ac8e479439848754d472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c957164e3610c9c3805aef399b89abae') in 0.3148014 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 121
+  Time since last request: 50845.124639 seconds.
+  path: Assets/Lowpoly Toon Modular Character Free Demo/Prefabs/lowpoly toon characters animations.prefab
+  artifactKey: Guid(3c939450f9e639f458f0266779cbe5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Toon Modular Character Free Demo/Prefabs/lowpoly toon characters animations.prefab using Guid(3c939450f9e639f458f0266779cbe5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e78cc61b98b711bd8dfba5ff1c41e685') in 0.1529207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Brick-3-Copy-Copy.mat
-  artifactKey: Guid(f37ce2f6a2ca9e643b6fb87ad5c7869d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick-3-Copy-Copy.mat using Guid(f37ce2f6a2ca9e643b6fb87ad5c7869d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae7684ecee10861c6630442172e0a346') in 0.3640451 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 12.272362 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Demo_FREE_LowPolyCharacter/PPProfile.asset
+  artifactKey: Guid(cf2649d8410aacf43860f9496d8804f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Demo_FREE_LowPolyCharacter/PPProfile.asset using Guid(cf2649d8410aacf43860f9496d8804f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87e4777aa622c15328a744e51d789b4a') in 0.0017055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 550.848443 seconds.
-  path: Assets/Brick-3-Copy.mat
-  artifactKey: Guid(d495ccaba0f89dc4da64db45233a9a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick-3-Copy.mat using Guid(d495ccaba0f89dc4da64db45233a9a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b30380f9a9ca860d53f2ef042fe70100') in 0.2042173 seconds
+  Time since last request: 1.877977 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/Demo_FREE_LowPolyCharacter/DEMO_FREE_LowPolyHumans/LightingData.asset
+  artifactKey: Guid(88d61e4b5bb195a4da585dd9c8d8ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/Demo_FREE_LowPolyCharacter/DEMO_FREE_LowPolyHumans/LightingData.asset using Guid(88d61e4b5bb195a4da585dd9c8d8ea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d930a5691fb09450d18b1194121d0c1') in 0.0014641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.163747 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab
+  artifactKey: Guid(60770bdb4dc667c45bea53db0339dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Prefabs_Humans/HumanMale_Character_FREE.prefab using Guid(60770bdb4dc667c45bea53db0339dc05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c9e866475d7a577ff1c6c229c546e19') in 0.0654801 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 294
 
+========================================================================
+Received Import Request.
+  Time since last request: 8.119044 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Armor.mat
+  artifactKey: Guid(22e7fb49e2b49e0418ef97b61b1c8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Armor.mat using Guid(22e7fb49e2b49e0418ef97b61b1c8db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46fe92ba790afe8520c380669d5ad9c1') in 0.0613561 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Hair.mat
+  artifactKey: Guid(0ec77e506658168428e174ef6ddb4abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Hair.mat using Guid(0ec77e506658168428e174ef6ddb4abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a354bc545df599ef569295c462db737') in 0.0185869 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Eyes.mat
+  artifactKey: Guid(64b04a6e3187c8247b209aac6c56b9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Eyes.mat using Guid(64b04a6e3187c8247b209aac6c56b9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59dd4d23afcc69df81b3950469631783') in 0.0220646 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Underwear.mat
+  artifactKey: Guid(fbac7c1722f262145b9ed0c0e940864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Characters/LowPoly/FREE_HumanLowPoly/Materials_Humans/Underwear.mat using Guid(fbac7c1722f262145b9ed0c0e940864d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2355429cc783d3717de3c5036c68f4a7') in 0.017864 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.573577 seconds.
+  path: Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Idle.fbx
+  artifactKey: Guid(c346a9e2503cda64ba4698db6aa5e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Idle.fbx using Guid(c346a9e2503cda64ba4698db6aa5e707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9de1e849183e622bdc406b9408e771fc') in 0.0084675 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollForward.fbx
+  artifactKey: Guid(5fad9ecdaa1678b408a01f37c5ca69e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollForward.fbx using Guid(5fad9ecdaa1678b408a01f37c5ca69e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50b1575e9cd923a13876d9245773e16c') in 0.0105728 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunForward.fbx
+  artifactKey: Guid(081930da5e255e348940373200bbeaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunForward.fbx using Guid(081930da5e255e348940373200bbeaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc2b9b66eb2441e24d73b082d6d258f0') in 0.0058179 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/StrafeRight.fbx
+  artifactKey: Guid(71d381e8db65cb547964e023373b98fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/StrafeRight.fbx using Guid(71d381e8db65cb547964e023373b98fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33fbddad966174af258e6ef21408143e') in 0.0100616 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/StrafeLeft.fbx
+  artifactKey: Guid(7177251f0e1f08546b656875551afe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/StrafeLeft.fbx using Guid(7177251f0e1f08546b656875551afe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75f7dc17f5873b4516df230f1f150749') in 0.0090562 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Sprint.fbx
+  artifactKey: Guid(dcacd08f98af5794db5b56a6a66048e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Sprint.fbx using Guid(dcacd08f98af5794db5b56a6a66048e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79f0016e878fee7ddaef27bc7abc64fc') in 0.0090294 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 178
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/JumpWhileRunning.fbx
+  artifactKey: Guid(7f10f6ce81a34824a9cd2746ad0b82ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/JumpWhileRunning.fbx using Guid(7f10f6ce81a34824a9cd2746ad0b82ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec915e6c6d0b76db23824dc93835d132') in 0.0068298 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 180
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollBackward.fbx
+  artifactKey: Guid(57d50d7ecb0231244b77aacf40cacf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollBackward.fbx using Guid(57d50d7ecb0231244b77aacf40cacf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afd84df2fcdc4349d6cab1ebb5bd8c77') in 0.0054835 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 13)
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\APDEV-MP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image S:\Repositories\APDEV-MP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.946 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.958 seconds
+Domain Reload Profiling: 1907ms
+	BeginReloadAssembly (293ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (524ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (958ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (639ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4421 unused Assets / (2.1 MB). Loaded Objects now: 5071.
+Memory consumption went from 143.3 MB to 141.2 MB.
+Total: 9.532000 ms (FindLiveObjects: 0.632000 ms CreateObjectMapping: 0.842500 ms MarkObjects: 6.213100 ms  DeleteObjects: 1.842800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
