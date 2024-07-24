@@ -5,10 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class MarketManager : MonoBehaviour
 {
+    public static MarketManager Instance; 
+
     private Scene gameScene;
     [SerializeField]
     private MarketUIDocument marketUIDocument;
 
+    public bool IsDiceRolled = false;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
     void Start()
     {
         gameScene = SceneManager.GetSceneByName("MarketScene");
@@ -57,5 +72,7 @@ public class MarketManager : MonoBehaviour
         {
             marketUIDocument.gameObject.SetActive(true);
         }
+
+        IsDiceRolled = true;
     }
 }

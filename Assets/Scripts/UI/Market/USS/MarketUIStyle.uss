@@ -6,21 +6,55 @@
 	align-self: center;
 	position: absolute;
 	width: 30%;
-	bottom: 10%;
+	bottom: 2%;
+}
+
+#DialogueHeader {
+	-unity-text-align: upper-center;
+	-unity-font-style: bold;
+	height: 70px;
+	width: 600px;
+	font-size: 17px;
 }
 
 #Option_1 {
-
+	-unity-font-style: bold;
+	color: rgb(0, 255, 0);
+	height: 70px;
+	width: 600px;
+	font-size: 17px;
 }
 
 #Option_2 {
-
+	-unity-font-style: bold;
+	color: rgb(255, 0, 0);
+	height: 70px;
+	width: 600px;
+	font-size: 17px;
 }
 
 #Option_3 {
-
+	-unity-font-style: bold;
+	color: rgb(255, 255, 255);
+	height: 70px;
+	width: 600px;
+	font-size: 17px;
 }
 
 #Option_4 {
+	-unity-font-style: bold;
+	color: rgb(255, 255, 255);
+	height: 70px;
+	width: 600px;
+	font-size: 17px;
+}
 
+.Dialogue {
+	align-self: center;
+	margin: 8px;
+	bottom: 5%;
+	border-width: 2px;
+	border-color: rgb(255, 255, 255);
+	border-radius: 28px;
+	background-image: url("/Assets/Sprites/DialogueBG.png");
 }

@@ -1,9 +1,10 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Scripts/UI/Market/USS/MarketUIStyle.uss?fileID=7433441132597879392&amp;guid=b60930a7ad0eedb44949b745d7d702f5&amp;type=3#MarketUIStyle" />
-    <engine:VisualElement name="DialogueBoxContainer" >
-        <engine:Button name="Option_1" text="[1] STR &gt;= 10" />
-        <engine:Button name="Option_2" text="[2] CHA &gt;= 14" />
-        <engine:Button name="Option_3" text="[3] Initiate Combat" />
-        <engine:Button name="Option_4" text="[4] Leave" />
+    <engine:VisualElement name="DialogueBoxContainer">
+        <engine:Label name="DialogueHeader" />
+        <engine:Button name="Option_1" class="Dialogue" />
+        <engine:Button name="Option_2" class="Dialogue" />
+        <engine:Button name="Option_3" class="Dialogue" />
+        <engine:Button name="Option_4" class="Dialogue" />
     </engine:VisualElement>
 </engine:UXML>

@@ -3,44 +3,56 @@
   "WorkspaceRootPath": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\npc\\npc_tapreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\npc\\npc_tapreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\npc_tapreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\npc\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\ui\\market\\marketuidocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\market\\marketuidocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\broadcasting\\eventbroadcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\broadcasting\\eventbroadcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\character stats\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\ui\\market\\uss\\marketuistyle.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\market\\uss\\marketuistyle.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\gestures\\gesturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gestures\\gesturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\npc\\dialoguestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\dialoguestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\dice\\dice face detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dice\\dice face detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\character stats\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\dice\\dice roller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dice\\dice roller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\npc\\dialoguestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\dialoguestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\character stats\\playerprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\character stats\\playerprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\gestures\\gesturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gestures\\gesturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\ui\\market\\uss\\marketuistyle.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\market\\uss\\marketuistyle.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\broadcasting\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\broadcasting\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\ui\\market\\uxml\\marketuidocument.uxml||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\market\\uxml\\marketuidocument.uxml||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\broadcasting\\eventnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,17 +66,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
+              "Title": "GestureManager.cs",
+              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Gestures\\GestureManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gestures\\GestureManager.cs",
+              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Gestures\\GestureManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gestures\\GestureManager.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAuwF0BAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T08:56:50.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerProgressManager.cs",
+              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
+              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T05:59:00.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerProgress.cs",
+              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
+              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T05:52:29.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerClass.cs",
               "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerClass.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\PlayerClass.cs",
               "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerClass.cs",
               "RelativeToolTip": "Assets\\Scripts\\Character Stats\\PlayerClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA7AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T14:29:42.695Z",
               "EditorCaption": ""
@@ -72,27 +123,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Dice Roller.cs",
+              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Roller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice\\Dice Roller.cs",
+              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Roller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dice\\Dice Roller.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T05:06:19.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dice Face Detector.cs",
+              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Face Detector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice\\Dice Face Detector.cs",
+              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Face Detector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dice\\Dice Face Detector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T14:20:51.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DialogueStats.cs",
               "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\DialogueStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\DialogueStats.cs",
               "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\DialogueStats.cs",
               "RelativeToolTip": "Assets\\Scripts\\NPC\\DialogueStats.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwDAAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T14:28:12.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dice Face Detector.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Face Detector.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice\\Dice Face Detector.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Face Detector.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dice\\Dice Face Detector.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "MarketManager.cs",
+              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\MarketManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MarketManager.cs",
+              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\MarketManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MarketManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T14:20:51.969Z",
+              "WhenOpened": "2024-07-21T08:27:22.268Z",
               "EditorCaption": ""
             },
             {
@@ -103,7 +180,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
               "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
               "RelativeToolTip": "Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCMAAAAyAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwGgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T14:31:00.883Z",
               "EditorCaption": ""
@@ -111,71 +188,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "NPCManager.cs",
+              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\NPCManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\NPCManager.cs",
+              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\NPCManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPC\\NPCManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T08:31:26.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MarketUIDocument.cs",
               "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
               "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAADwv7AAAAApAAAA",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAIwHoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T16:01:12.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EventBroadcaster.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\EventBroadcaster.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Broadcasting\\EventBroadcaster.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\EventBroadcaster.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Broadcasting\\EventBroadcaster.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T13:44:25.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GestureManager.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Gestures\\GestureManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Gestures\\GestureManager.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Gestures\\GestureManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Gestures\\GestureManager.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAgwEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:11:05.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "MarketUIStyle.uss",
               "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
               "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
               "RelativeToolTip": "Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-19T16:14:41.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MarketUIDocument.uxml",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\UXML\\MarketUIDocument.uxml",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Market\\UXML\\MarketUIDocument.uxml",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\UXML\\MarketUIDocument.uxml",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Market\\UXML\\MarketUIDocument.uxml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-06-19T16:09:45.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Parameters.cs",
               "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\Parameters.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Broadcasting\\Parameters.cs",
@@ -183,12 +234,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Broadcasting\\Parameters.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAnwCwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T13:44:40.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T13:44:40.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "EventNames.cs",
               "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\EventNames.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Broadcasting\\EventNames.cs",

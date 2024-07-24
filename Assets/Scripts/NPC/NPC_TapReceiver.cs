@@ -7,17 +7,18 @@ public class NPC_TapReceiver : MonoBehaviour , ITappable
 {
     [Header("Dialogue Stats Parameters")]
     [SerializeField]
-    private int _option1;
+    private string _op1StatType;
 
     [SerializeField]
-    private int _option2;
+    private int _op1StatValue;
 
     [SerializeField]
-    private string _op1Type;
+    private string _op2StatType;
 
     [SerializeField]
-    private string _op2Type;
+    private int _op2StatValue;
 
+    [Header("Dialogue Text Parameters")]
     [SerializeField]
     private string _dialogueHeader;
 
@@ -43,25 +44,28 @@ public class NPC_TapReceiver : MonoBehaviour , ITappable
      */
 
     [SerializeField]
-    private int _questPart;
+    private int _questPart; 
 
     [SerializeField]
-    private int _NPCType; // Type 0 = 4 dialogue options, Type 1 = 2 dialogue options (success or fail only)
+    private int _NPCType;
+    // Type 0 = 4 dialogue options, Type 1 = 1 dialogue options (success or fail only)
 
     private bool _inRange;
 
+    public bool _isInteractable = true;
+    public bool _isOption1Picked = false;
+    public bool _isOption2Picked = false;
     private bool CheckPlayerProgress()
     {
         if(this._questType == 0)
         {
             if(this._questPart == PlayerProgress.MainQuestProgress)
             {
-                Debug.Log("Main Quest Part 1");
                 return true;
             }
             else
             {
-                Debug.Log("Progress to interact");
+                return false;
             }
         }
 
@@ -69,12 +73,11 @@ public class NPC_TapReceiver : MonoBehaviour , ITappable
         {
             if (this._questPart == PlayerProgress.SubQuest_1Progress)
             {
-                Debug.Log("Sub Quest 1 Part 1");
                 return true;
             }
             else
             {
-                Debug.Log("Progress to interact");
+                return false;
             }
         }
 
@@ -82,12 +85,11 @@ public class NPC_TapReceiver : MonoBehaviour , ITappable
         {
             if (this._questPart == PlayerProgress.SubQuest_2Progress)
             {
-                Debug.Log("Sub Quest 2 Part 1");
                 return true;
             }
             else
             {
-                Debug.Log("Progress to interact");
+                return false;
             }
         }
 
@@ -95,13 +97,16 @@ public class NPC_TapReceiver : MonoBehaviour , ITappable
     }
     public void OnTap(TapEventArgs args)
     {
-        if(this._inRange && this.CheckPlayerProgress())
+        if (this._inRange && this.CheckPlayerProgress())
         {
-            DialogueStats.Option1 = this._option1;
-            DialogueStats.Option2 = this._option2;
+            DialogueStats.ActiveNPC = this;
+            DialogueStats.Option1 = this._op1StatValue;
+            DialogueStats.Option2 = this._op2StatValue;
 
-            DialogueStats.Op1Type = this._op1Type;
-            DialogueStats.Op2Type = this._op2Type;
+            DialogueStats.Op1Type = this._op1StatType;
+            DialogueStats.Op2Type = this._op2StatType;
+
+            DialogueStats.NpcType = this._NPCType;
 
             DialogueStats.DialogueHeader = this._dialogueHeader;
 
@@ -112,7 +117,6 @@ public class NPC_TapReceiver : MonoBehaviour , ITappable
             DialogueStats.Op2Text = this._op2Text;
 
             EventBroadcaster.Instance.PostEvent(EventNames.NPC_Dialogue_Events.ON_NPC_TAPPED);
-            Debug.Log("NPC Tapped");
         }
     }
 
