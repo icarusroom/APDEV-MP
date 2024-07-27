@@ -49,67 +49,74 @@ public class MarketUIDocument : MonoBehaviour
 
     IEnumerator HandleOption1()
     {
-        marketManager.OnDiceButtonClicked("DiceRoll");
+        marketManager.OnDiceButtonClicked("DiceRoll", DialogueStats.Option1, DialogueStats.Op1Type, 1);
 
         yield return new WaitUntil(() => MarketManager.Instance.IsDiceRolled);
 
-        int PlayerStat = PlayerPrefs.GetInt(DialogueStats.Op1Type, 0);
-        int diceBonus;
+        int playerStat = PlayerPrefs.GetInt(DialogueStats.Op1Type, 0);
+        int diceBonus = playerStat > 10 ? playerStat - 10 : 0;
         int diceRoll = DiceRollProperties.DiceRollResult;
 
-        if (PlayerStat >= DialogueStats.Option1)
+        if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
         {
-            if (PlayerStat > 10)
-            {
-                diceBonus = PlayerStat - 10;
-            }
-
-            else
-            {
-                diceBonus = 0;
-            }
-
-            if (((diceRoll + diceBonus) >= DialogueStats.Option1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
-            {
-                this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
-                PlayerProgress.PositiveChoiceCounter++;
-                Debug.Log("[Option 1] : Success");
-            }
-
-            else
-            {
-                if (DialogueStats.NpcType == 1)
-                {
-                    this.DiceRollSuccessful(DialogueStats.QuestType);
-                    PlayerProgress.NegativeChoiceCounter++;
-                }
-                Debug.Log("[Option 1] : Failed");
-            }
+            Debug.Log("Forced success");
+            this.DiceRollSuccessful(DialogueStats.QuestType);
+            PlayerProgress.PositiveChoiceCounter++;
+            Debug.Log("[Option 1] : Success");
         }
-
+        else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL)
+        {
+            Debug.Log("Forced fail");
+            Debug.Log("[Option 1] : Failed");
+        }
         else
         {
-            if ((diceRoll >= DialogueStats.Option1 + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
+            if (playerStat >= DialogueStats.Option1)
             {
-                this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
-                PlayerProgress.PositiveChoiceCounter++;
-                Debug.Log("[Option 1] : Success");
+                if ((diceRoll + diceBonus) >= DialogueStats.Option1)
+                {
+                    Debug.Log((diceRoll + diceBonus));
+                    this.DiceRollSuccessful(DialogueStats.QuestType);
+                    PlayerProgress.PositiveChoiceCounter++;
+                    Debug.Log("[Option 1] : Success");
+                }
+                else
+                {
+                    Debug.Log((diceRoll + diceBonus));
+                    if (DialogueStats.NpcType == 1)
+                    {
+                        this.DiceRollSuccessful(DialogueStats.QuestType);
+                        PlayerProgress.NegativeChoiceCounter++;
+                    }
+                    Debug.Log("[Option 1] : Failed");
+                }
             }
-
             else
             {
-                if (DialogueStats.NpcType == 1)
+                if (diceRoll >= DialogueStats.Option1 + 1)
                 {
+                    Debug.Log(diceRoll);
                     this.DiceRollSuccessful(DialogueStats.QuestType);
-                    PlayerProgress.NegativeChoiceCounter++;
+                    PlayerProgress.PositiveChoiceCounter++;
+                    Debug.Log("[Option 1] : Success");
                 }
-                Debug.Log("[Option 1] : Failed");
+                else
+                {
+                    Debug.Log(diceRoll);
+                    if (DialogueStats.NpcType == 1)
+                    {
+                        this.DiceRollSuccessful(DialogueStats.QuestType);
+                        PlayerProgress.NegativeChoiceCounter++;
+                    }
+                    Debug.Log("[Option 1] : Failed");
+                }
             }
         }
 
-        NPCManager.Instance.DisableDialogue(1); //This option is disabled after choosing it.
+        NPCManager.Instance.DisableDialogue(1);
         MarketManager.Instance.IsDiceRolled = false;
     }
+
 
     private void OnOption2Clicked()
     {
@@ -118,57 +125,62 @@ public class MarketUIDocument : MonoBehaviour
 
     IEnumerator HandleOption2()
     {
-        marketManager.OnDiceButtonClicked("DiceRoll");
+        marketManager.OnDiceButtonClicked("DiceRoll", DialogueStats.Option2, DialogueStats.Op2Type, 2);
 
         yield return new WaitUntil(() => MarketManager.Instance.IsDiceRolled);
 
-        int PlayerStat = PlayerPrefs.GetInt(DialogueStats.Op2Type, 0);
-        int diceBonus;
+        int playerStat = PlayerPrefs.GetInt(DialogueStats.Op2Type, 0);
+        int diceBonus = playerStat > 10 ? playerStat - 10 : 0;
         int diceRoll = DiceRollProperties.DiceRollResult;
 
-        if (PlayerStat >= DialogueStats.Option2)
+        if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
         {
-            if (PlayerStat > 10)
-            {
-                diceBonus = PlayerStat - 10;
-            }
-            else
-            {
-                diceBonus = 0;
-            }
-
-            if (((diceRoll + diceBonus) >= DialogueStats.Option2) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
-            {
-                this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
-                PlayerProgress.NegativeChoiceCounter++;
-                Debug.Log("[Option 2] : Success");
-            }
-
-            else
-            {
-                //fail
-                Debug.Log("[Option 2] : Failed");
-            }
+            Debug.Log("Forced success");
+            this.DiceRollSuccessful(DialogueStats.QuestType);
+            PlayerProgress.NegativeChoiceCounter++;
+            Debug.Log("[Option 2] : Success");
         }
-
+        else if (DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_FAIL)
+        {
+            Debug.Log("Forced fail");
+            Debug.Log("[Option 2] : Failed");
+        }
         else
         {
-            if ((diceRoll >= DialogueStats.Option2 + 1) || DeveloperProperties.DiceRoll == EDiceRoll.DICE_ROLL_SUCCEED)
+            if (playerStat >= DialogueStats.Option2)
             {
-                this.DiceRollSuccessful(DialogueStats.QuestType); //Updates the player progress
-                PlayerProgress.NegativeChoiceCounter++;
-                Debug.Log("[Option 2] : Success");
+                if ((diceRoll + diceBonus) >= DialogueStats.Option2)
+                {
+                    this.DiceRollSuccessful(DialogueStats.QuestType);
+                    PlayerProgress.NegativeChoiceCounter++;
+                    Debug.Log("[Option 2] : Success");
+                }
+                else
+                {
+                    Debug.Log((diceRoll + diceBonus));
+                    Debug.Log("[Option 2] : Failed");
+                }
             }
-
             else
             {
-                Debug.Log("[Option 2] : Failed");
+                if (diceRoll >= DialogueStats.Option2 + 1)
+                {
+                    this.DiceRollSuccessful(DialogueStats.QuestType);
+                    PlayerProgress.NegativeChoiceCounter++;
+                    Debug.Log("[Option 2] : Success");
+                }
+                else
+                {
+                    Debug.Log(diceRoll);
+                    Debug.Log("[Option 2] : Failed");
+                }
             }
         }
 
         NPCManager.Instance.DisableDialogue(2);
         MarketManager.Instance.IsDiceRolled = false;
     }
+
 
     private void OnOption3Clicked()
     {

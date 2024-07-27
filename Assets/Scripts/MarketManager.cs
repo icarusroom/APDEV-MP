@@ -33,10 +33,13 @@ public class MarketManager : MonoBehaviour
         }
     }
 
-    public void OnDiceButtonClicked(string sceneName)
+    public void OnDiceButtonClicked(string sceneName, int requirements, string opt, int optionChosen)
     {
         marketUIDocument.HideDialogueBox();
         SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+        RequirementProperties.statsRequirement = requirements;
+        RequirementProperties.playerOpt = opt;
+        RequirementProperties.OptionChosen = optionChosen;
         GameSceneOBJ(gameScene, false);
     }
 
@@ -44,7 +47,7 @@ public class MarketManager : MonoBehaviour
     {
         foreach (GameObject obj in scene.GetRootGameObjects())
         {
-            if (obj.name == "MarketManager") //Will change soon to accommodate all area scenes
+            if (obj.name == "MarketManager") 
             {
                 obj.SetActive(true);
             }

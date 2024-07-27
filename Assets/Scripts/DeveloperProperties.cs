@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class DeveloperProperties
 {
-    private static EDiceRoll diceRoll = EDiceRoll.DICE_ROLL_NORMAL;
+    public static EDiceRoll diceRoll = EDiceRoll.DICE_ROLL_NORMAL;
 
     public static EDiceRoll DiceRoll
     {

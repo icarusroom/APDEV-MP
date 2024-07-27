@@ -18,6 +18,8 @@ EditorBuildSettings:
     path: Assets/Scenes/DiceRoll.unity
     guid: dbd61c2fcc5187041ac132b0e561900a
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: df46a3e5c97b78342a6a1dcf89b0d6b5,
+      type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: a8001cf5aff1cae48b5a9a0c970b868b, type: 2}
   m_UseUCBPForAssetBundles: 0

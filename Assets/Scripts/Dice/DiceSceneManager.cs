@@ -4,7 +4,7 @@ public class DiceSceneManager : MonoBehaviour
 {
     public void OnFinishedButtonClicked()
     {
-        GameObject marketManagerObject = GameObject.Find("MarketManager"); //Will change soon to accomodate all area scenes
+        GameObject marketManagerObject = GameObject.Find("MarketManager"); 
         if (marketManagerObject != null)
         {
             MarketManager marketManager = marketManagerObject.GetComponent<MarketManager>();

@@ -55,6 +55,8 @@ public class NPC_TapReceiver : MonoBehaviour , ITappable
     public bool _isInteractable = true;
     public bool _isOption1Picked = false;
     public bool _isOption2Picked = false;
+
+    public bool _adShown = false;
     private bool CheckPlayerProgress()
     {
         if(this._questType == 0)

@@ -159,7 +159,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    iPhone: com.DefaultCompany.GDAPDEV-MP
   buildNumber:
     Bratwurst: 0
     Standalone: 0
@@ -935,6 +936,7 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     UNet: 1
+    Unity Ads: 1
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -956,10 +958,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: e7f7faed-c60c-4399-adce-4a7d2c2d2385
+  cloudProjectId: db74b9b9-b602-449d-b98b-10326b9d0152
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: GDAPDEV MP
+  projectName: APDEV MP
   organizationId: mvincent8403
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
