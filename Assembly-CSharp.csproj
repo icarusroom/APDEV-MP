@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Ads\AdsInitializer.cs" />
     <Compile Include="Assets\Scripts\DiceRollText.cs" />
     <Compile Include="Assets\Scripts\RoofDisabler.cs" />
+    <Compile Include="Assets\Scripts\Internal Dice\InternalDice.cs" />
     <Compile Include="Assets\Scripts\Dice\RequirementProperties.cs" />
     <Compile Include="Assets\Scripts\Gestures\Swipe\SwipeProperty.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets\Scripts\Dice\Dice Face Detector.cs" />
     <Compile Include="Assets\Scripts\Teleporter.cs" />
     <Compile Include="Assets\Scripts\Gestures\Tap\DirectedTapCube.cs" />
+    <Compile Include="Assets\Scripts\BarracksWall.cs" />
     <Compile Include="Assets\Scripts\NPC\NPCManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Broadcasting\EventBroadcaster.cs" />
