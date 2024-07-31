@@ -1,62 +1,126 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\",
+  "WorkspaceRootPath": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\npc\\npc_tapreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\npc_tapreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|c:\\users\\matth\\documents\\github\\apdev-mp\\assets\\scripts\\for combat\\combat loop\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\combat loop\\enemystats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\npc\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\character stats\\classstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\classstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\ui\\market\\marketuidocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\market\\marketuidocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|c:\\users\\matth\\documents\\github\\apdev-mp\\assets\\scripts\\character stats\\classselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\classselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\character stats\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\combat loop\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\combat loop\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\combat loop\\characterstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\combat loop\\characterstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\npc\\dialoguestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\dialoguestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\combat loop\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\combat loop\\combatmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\dice\\dice face detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dice\\dice face detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\combat loop\\combatuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\combat loop\\combatuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\dice\\dice roller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dice\\dice roller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\character stats\\playerprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\character stats\\playerprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|d:\\aaaschool\\3rd year\\term 3\\gdapdev\\mpver2\\apdev-mp\\assets\\scripts\\gestures\\gesturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\gestures\\gesturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gestures\\gesturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\ui\\market\\uss\\marketuistyle.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\npc\\dialoguestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\dialoguestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\npc\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\npcmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\unitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\labeller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\labeller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\pathfinding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\for combat\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\character stats\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\character stats\\playerprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\npc\\npc_tapreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npc\\npc_tapreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\ui\\market\\marketuidocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\market\\marketuidocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\marketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\dice\\dice face detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dice\\dice face detector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\dice\\dice roller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dice\\dice roller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\character stats\\playerprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character stats\\playerprogressmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\ui\\market\\uss\\marketuistyle.uss||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\market\\uss\\marketuistyle.uss||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\broadcasting\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\broadcasting\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\broadcasting\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\assets\\scripts\\broadcasting\\eventnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\broadcasting\\eventnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{871088F7-8007-7429-3228-6BC949D5FF64}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\broadcasting\\eventnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\matth\\documents\\github\\apdev-mp\\assets\\scripts\\for combat\\gridstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\for combat\\gridstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\assets\\scripts\\for combat\\gridbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\for combat\\gridbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\DiceRoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\For Combat\\Combat Loop\\DiceRoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,171 +130,354 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GestureManager.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Gestures\\GestureManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Gestures\\GestureManager.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Gestures\\GestureManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Gestures\\GestureManager.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAuwF0BAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T08:56:50.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerProgressManager.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBgAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T05:59:00.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayerProgress.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T05:52:29.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerClass.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerClass.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\PlayerClass.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerClass.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\PlayerClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T14:29:42.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Dice Roller.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Roller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice\\Dice Roller.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Roller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dice\\Dice Roller.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwDUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T05:06:19.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Dice Face Detector.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Face Detector.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice\\Dice Face Detector.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Face Detector.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dice\\Dice Face Detector.cs",
+              "DocumentIndex": 2,
+              "Title": "ClassSelection.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\ClassSelection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\ClassSelection.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\ClassSelection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\ClassSelection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T14:20:51.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DialogueStats.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\DialogueStats.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\DialogueStats.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\DialogueStats.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NPC\\DialogueStats.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T14:28:12.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MarketManager.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\MarketManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MarketManager.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\MarketManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MarketManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T08:27:22.268Z",
+              "WhenOpened": "2024-07-31T18:18:07.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NPC_TapReceiver.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAgwGgAAAAqAAAA",
+              "Title": "EnemyStats.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\EnemyStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Combat Loop\\EnemyStats.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\EnemyStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Combat Loop\\EnemyStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T14:31:00.883Z",
+              "WhenOpened": "2024-07-31T18:03:50.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NPCManager.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\NPCManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\NPCManager.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\NPC\\NPCManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\NPC\\NPCManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAWAAAA",
+              "DocumentIndex": 6,
+              "Title": "CombatUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\CombatUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Combat Loop\\CombatUIManager.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\CombatUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Combat Loop\\CombatUIManager.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T08:31:26.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T18:03:46.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MarketUIDocument.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAIwHoAAAANAAAA",
+              "DocumentIndex": 29,
+              "Title": "DiceRoller.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\DiceRoller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Combat Loop\\DiceRoller.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\DiceRoller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Combat Loop\\DiceRoller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T16:01:12.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T18:03:49.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CombatManager.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\CombatManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Combat Loop\\CombatManager.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\CombatManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Combat Loop\\CombatManager.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:03:45.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CharacterStats.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\CharacterStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Combat Loop\\CharacterStats.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\CharacterStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Combat Loop\\CharacterStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:03:43.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Tile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Tile.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Tile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Tile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:27:19.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pathfinding.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Pathfinding.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Pathfinding.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Pathfinding.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Pathfinding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T17:11:15.811Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MarketUIStyle.uss",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-19T16:14:41.709Z",
-              "EditorCaption": ""
+              "Title": "UnitController.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\UnitController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\UnitController.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\UnitController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\UnitController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:33:52.071Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Labeller.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Labeller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Labeller.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Labeller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Labeller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:24:41.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GridManager.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\GridManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\GridManager.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\GridManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\GridManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:11:36.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassStats.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\ClassStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\ClassStats.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\ClassStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\ClassStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T16:26:10.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Combat Loop\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Combat Loop\\PlayerStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Combat Loop\\PlayerStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:03:52.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GridBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\GridBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\GridBehaviour.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\GridBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\GridBehaviour.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:31:42.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GestureManager.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Gestures\\GestureManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gestures\\GestureManager.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Gestures\\GestureManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gestures\\GestureManager.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwF0BAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T08:56:50.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlayerProgressManager.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\PlayerProgressManager.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T05:59:00.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerProgress.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\PlayerProgress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T05:52:29.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NPCManager.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\NPC\\NPCManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\NPCManager.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\NPC\\NPCManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPC\\NPCManager.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T08:31:26.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DialogueStats.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\NPC\\DialogueStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\DialogueStats.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\NPC\\DialogueStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPC\\DialogueStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T14:28:12.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GridStat.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\GridStat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\GridStat.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\GridStat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\GridStat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:39:56.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Node.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\For Combat\\Node.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\For Combat\\Node.cs",
+              "RelativeToolTip": "Assets\\Scripts\\For Combat\\Node.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T13:10:17.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlayerClass.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerClass.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character Stats\\PlayerClass.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Character Stats\\PlayerClass.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character Stats\\PlayerClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T14:29:42.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Dice Roller.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Roller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice\\Dice Roller.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Roller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dice\\Dice Roller.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T05:06:19.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dice Face Detector.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Face Detector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice\\Dice Face Detector.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Dice\\Dice Face Detector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dice\\Dice Face Detector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T14:20:51.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MarketManager.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\MarketManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MarketManager.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\MarketManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MarketManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T08:27:22.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NPC_TapReceiver.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NPC\\NPC_TapReceiver.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwGgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T14:31:00.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MarketUIDocument.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Market\\MarketUIDocument.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAIwHoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:01:12.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MarketUIStyle.uss",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Market\\USS\\MarketUIStyle.uss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-19T16:14:41.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "Parameters.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\Parameters.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\Parameters.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Broadcasting\\Parameters.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\Parameters.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\Parameters.cs",
               "RelativeToolTip": "Assets\\Scripts\\Broadcasting\\Parameters.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAnwCwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -238,11 +485,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "EventNames.cs",
-              "DocumentMoniker": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\EventNames.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\EventNames.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Broadcasting\\EventNames.cs",
-              "ToolTip": "D:\\AAASchool\\3rd Year\\Term 3\\GDAPDEV\\MPVer2\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\EventNames.cs",
+              "ToolTip": "C:\\Users\\matth\\Documents\\GitHub\\APDEV-MP\\Assets\\Scripts\\Broadcasting\\EventNames.cs",
               "RelativeToolTip": "Assets\\Scripts\\Broadcasting\\EventNames.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAwwDsAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
