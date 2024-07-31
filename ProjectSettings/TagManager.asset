@@ -8,6 +8,8 @@ TagManager:
   - Fire
   - NPC
   - MenuMusic
+  - Tile
+  - Unit
   layers:
   - Default
   - TransparentFX
