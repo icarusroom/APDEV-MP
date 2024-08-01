@@ -69,6 +69,7 @@ public class MarketUIDocument : MonoBehaviour
             Debug.Log("Forced fail");
             Debug.Log("[Option 1] : Failed");
         }
+
         else
         {
             if (playerStat >= DialogueStats.Option1)
@@ -85,8 +86,18 @@ public class MarketUIDocument : MonoBehaviour
                     Debug.Log((diceRoll + diceBonus));
                     if (DialogueStats.NpcType == 1)
                     {
-                        this.DiceRollSuccessful(DialogueStats.QuestType);
-                        PlayerProgress.NegativeChoiceCounter++;
+                        if(DialogueStats.QuestType == 0)
+                        {
+                            //Failing the dice roll will trigger combat.
+                            Debug.Log("Bribe Guards Fail");
+                            PlayerProgress.NegativeChoiceCounter++;
+                            StartCoroutine(HandleCombat());
+                        }
+                        else
+                        {
+                            this.DiceRollSuccessful(DialogueStats.QuestType);
+                            PlayerProgress.NegativeChoiceCounter++;
+                        }
                     }
                     Debug.Log("[Option 1] : Failed");
                 }
@@ -105,8 +116,18 @@ public class MarketUIDocument : MonoBehaviour
                     Debug.Log(diceRoll);
                     if (DialogueStats.NpcType == 1)
                     {
-                        this.DiceRollSuccessful(DialogueStats.QuestType);
-                        PlayerProgress.NegativeChoiceCounter++;
+                        if (DialogueStats.QuestType == 0)
+                        {
+                            //Failing the dice roll will trigger combat.
+                            Debug.Log("Bribe Guards Fail");
+                            PlayerProgress.NegativeChoiceCounter++;
+                            StartCoroutine(HandleCombat());
+                        }
+                        else
+                        {
+                            this.DiceRollSuccessful(DialogueStats.QuestType);
+                            PlayerProgress.NegativeChoiceCounter++;
+                        }
                     }
                     Debug.Log("[Option 1] : Failed");
                 }
@@ -253,6 +274,14 @@ public class MarketUIDocument : MonoBehaviour
             this._option1.text = DialogueStats.Op1Description + "\n" + DialogueStats.Op1Text + " >= " + DialogueStats.Option1.ToString();
             this._option2.style.visibility = Visibility.Hidden;
             this._option3.style.visibility = Visibility.Hidden;
+            this._option4.text = "Leave";
+        }
+
+        if (DialogueStats.NpcType == 2)
+        {
+            this._option1.style.visibility = Visibility.Hidden;
+            this._option2.style.visibility = Visibility.Hidden;
+            this._option3.text = "Initiate Combat";
             this._option4.text = "Leave";
         }
 
