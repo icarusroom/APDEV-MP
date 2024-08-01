@@ -33,13 +33,16 @@ public class Pathfinding : MonoBehaviour
 
     public List<Node> GetNewPath()
     {
-        return GetNewPath(startCords);
+        return GetNewPath(startCords, targetCords);
     }
 
-    public List<Node> GetNewPath(Vector2Int coordinates)
+    public List<Node> GetNewPath(Vector2Int startCoordinates, Vector2Int targetCoordinates)
     {
+        startCords = startCoordinates;
+        targetCords = targetCoordinates;
+
         gridManager.ResetNodes();
-        BreadthFirstSearch(coordinates);
+        BreadthFirstSearch(startCoordinates);
         return BuildPath();
     }
 
@@ -135,6 +138,6 @@ public class Pathfinding : MonoBehaviour
         startCords = startCoordinates;
         targetCords = targetCoordinates;
         Debug.Log($"Set new destination: Start: {startCords}, Target: {targetCords}");
-        GetNewPath(startCoordinates);
+        GetNewPath(startCoordinates, targetCoordinates);
     }
 }

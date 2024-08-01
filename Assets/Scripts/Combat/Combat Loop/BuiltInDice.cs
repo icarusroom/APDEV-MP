@@ -12,7 +12,7 @@ public class BuiltInDice : MonoBehaviour
         }
         else
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 
@@ -24,7 +24,7 @@ public class BuiltInDice : MonoBehaviour
     public int CalculateDamage(int strength)
     {
         int roll = Roll(1, 12);
-        int baseDamage = roll + strength;
+        int baseDamage = roll + strength; 
         return baseDamage;
     }
 
