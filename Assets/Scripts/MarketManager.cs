@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MarketManager : MonoBehaviour
 {
-    public static MarketManager Instance; 
+    public static MarketManager Instance;
 
     private Scene gameScene;
     [SerializeField]
     private MarketUIDocument marketUIDocument;
 
     public bool IsDiceRolled = false;
+    public bool IsCombatDone = false;
 
     private void Awake()
     {
@@ -24,6 +25,7 @@ public class MarketManager : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
     void Start()
     {
         gameScene = SceneManager.GetSceneByName("MarketScene");
@@ -43,11 +45,18 @@ public class MarketManager : MonoBehaviour
         GameSceneOBJ(gameScene, false);
     }
 
+    public void OnCombatButtonClicked(string sceneName)
+    {
+        marketUIDocument.HideDialogueBox();
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
+        GameSceneOBJ(gameScene, false);
+    }
+
     private void GameSceneOBJ(Scene scene, bool active)
     {
         foreach (GameObject obj in scene.GetRootGameObjects())
         {
-            if (obj.name == "MarketManager") 
+            if (obj.name == "MarketManager")
             {
                 obj.SetActive(true);
             }
@@ -77,5 +86,18 @@ public class MarketManager : MonoBehaviour
         }
 
         IsDiceRolled = true;
+    }
+
+    public void OnCombatClosed()
+    {
+        SceneManager.UnloadSceneAsync("CombatScene");
+        GameSceneOBJ(gameScene, true);
+
+        if (marketUIDocument != null)
+        {
+            marketUIDocument.gameObject.SetActive(true);
+        }
+
+        IsCombatDone = true;
     }
 }

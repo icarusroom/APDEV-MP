@@ -184,8 +184,34 @@ public class MarketUIDocument : MonoBehaviour
 
     private void OnOption3Clicked()
     {
-        //Combat script
+        StartCoroutine(HandleCombat());
     }
+
+    IEnumerator HandleCombat()
+    {
+        HideDialogueBox();
+        marketManager.OnCombatButtonClicked("CombatScene");
+
+        yield return new WaitUntil(() => MarketManager.Instance.IsCombatDone);
+
+        bool combatResult = CombatProperties.CombatResult;
+
+        if(combatResult)
+        {
+            Debug.Log("COMBAT WON");
+        }
+        else
+        {
+            Debug.Log("COMBAT LOST");
+        }
+
+        MarketManager.Instance.IsCombatDone = false;
+    }
+
+
+
+
+
 
     private void OnOption4Clicked()
     {
