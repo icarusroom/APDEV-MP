@@ -1,33 +1,41 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CombatUIManager : MonoBehaviour
 {
-    public CombatManager combatManager;
-
     public Button attackButton;
     public Button healButton;
-    public Button moveButton;
+    public TMP_Text diceRollResultText;
+    public bool ActionSelected { get; private set; }
+    public enum ActionType { Attack, Heal }
+    public ActionType SelectedAction { get; private set; }
 
-    private void Start()
+    void Start()
     {
         attackButton.onClick.AddListener(OnAttackButton);
         healButton.onClick.AddListener(OnHealButton);
-        moveButton.onClick.AddListener(OnMoveButton);
     }
 
     private void OnAttackButton()
     {
-        combatManager.PlayerAttack();
+        SelectedAction = ActionType.Attack;
+        ActionSelected = true;
     }
 
     private void OnHealButton()
     {
-        combatManager.PlayerHeal();
+        SelectedAction = ActionType.Heal;
+        ActionSelected = true;
     }
 
-    private void OnMoveButton()
+    public void UpdateDiceRollResult(int result)
     {
-        combatManager.PlayerMove();
+        diceRollResultText.text = "Dice Roll: " + result;
+    }
+
+    public void ResetActionState()
+    {
+        ActionSelected = false;
     }
 }

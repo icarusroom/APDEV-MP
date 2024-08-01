@@ -26,4 +26,27 @@ public class PlayerStats : CharacterStats
         maxHealth = constitution * 10; // Example formula
         currentHealth = maxHealth;
     }
+
+    private bool enemyInRange = false;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Unit"))
+        {
+            enemyInRange = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Unit"))
+        {
+            enemyInRange = false;
+        }
+    }
+
+    public bool IsEnemyInRange()
+    {
+        return enemyInRange;
+    }
 }

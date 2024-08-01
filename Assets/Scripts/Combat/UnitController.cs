@@ -11,6 +11,9 @@ public class UnitController : MonoBehaviour
     GridManager gridManager;
     Pathfinding pathFinder;
 
+    // Reference to the enemy
+    [SerializeField] Transform enemyUnit;
+
     void Start()
     {
         gridManager = FindObjectOfType<GridManager>();
@@ -36,11 +39,11 @@ public class UnitController : MonoBehaviour
                         // Check if the selected tile is walkable
                         if (gridManager.GetNode(targetCords).walkable)
                         {
-                            Vector2Int startCords = UnitCoordinates.Instance.GetUnitCoord(); // Use unitCoordinates to get the current tile
+                            Vector2Int startCords = gridManager.GetCoordinatesFromPosition(selectedUnit.position);
                             Debug.Log($"Clicked tile coordinates: {targetCords}");
 
                             pathFinder.SetNewDestination(startCords, targetCords);
-                            RecalculatePath(true);
+                            RecalculatePath(startCords, targetCords);
                             unitSelected = false;
                         }
                         else
@@ -56,23 +59,24 @@ public class UnitController : MonoBehaviour
                 }
             }
         }
+
+        // Example: Check if enemy is in range
+        if (unitSelected && enemyUnit != null)
+        {
+            Vector2Int playerCoords = gridManager.GetCoordinatesFromPosition(selectedUnit.position);
+            Vector2Int enemyCoords = gridManager.GetCoordinatesFromPosition(enemyUnit.position);
+            if (IsInRange(playerCoords, enemyCoords, 1)) // Melee range: 1 tile away
+            {
+                Debug.Log("Enemy is in range!");
+            }
+        }
     }
 
-
-    void RecalculatePath(bool resetPath)
+    void RecalculatePath(Vector2Int startCoordinates, Vector2Int targetCoordinates)
     {
-        Vector2Int coordinates;
-        if (resetPath)
-        {
-            coordinates = pathFinder.StartCords;
-        }
-        else
-        {
-            coordinates = gridManager.GetCoordinatesFromPosition(transform.position);
-        }
         StopAllCoroutines();
         path.Clear();
-        path = pathFinder.GetNewPath(coordinates);
+        path = pathFinder.GetNewPath(startCoordinates, targetCoordinates);
         StartCoroutine(FollowPath());
     }
 
@@ -83,7 +87,7 @@ public class UnitController : MonoBehaviour
         foreach (Node node in path)
         {
             Vector3 targetPosition = gridManager.GetPositionFromCoordinates(node.cords);
-            targetPosition.y = selectedUnit.position.y; 
+            targetPosition.y = selectedUnit.position.y;
             Vector3 startPosition = selectedUnit.position;
 
             float journeyLength = Vector3.Distance(startPosition, targetPosition);
@@ -99,5 +103,10 @@ public class UnitController : MonoBehaviour
 
             selectedUnit.position = targetPosition;
         }
+    }
+
+    private bool IsInRange(Vector2Int startCoords, Vector2Int targetCoords, int range)
+    {
+        return Vector2Int.Distance(startCoords, targetCoords) <= range;
     }
 }

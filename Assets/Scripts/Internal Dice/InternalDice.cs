@@ -10,9 +10,14 @@ public class InternalDice : MonoBehaviour
 
     public int diceResult;
 
+    private void Start()
+    {
+        diceResult = 0;
+    }
+
     public void OnInternalDiceRolled()
     {
-        if(diceResult == 0)
+        if (diceResult == 0)
         {
             diceResult = Random.Range(1, 21);
             diceText.text = "Roll Result: " + diceResult.ToString();
@@ -20,20 +25,10 @@ public class InternalDice : MonoBehaviour
         }
     }
 
-    IEnumerator DiceResultReset()
+    private IEnumerator DiceResultReset()
     {
         yield return new WaitForSeconds(3);
         diceResult = 0;
-    }
-    
-    void Start()
-    {
-        diceResult = 0;
-    }
-
-    
-    void Update()
-    {
-        
+        diceText.text = "Roll Result: -"; // Optional: Reset display text
     }
 }
