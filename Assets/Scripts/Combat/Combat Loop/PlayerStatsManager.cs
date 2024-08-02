@@ -15,6 +15,22 @@ public class PlayerStatsManager : MonoBehaviour
     public int Wisdom => classStats.wisdom;
     public int Charisma => classStats.charisma;
 
+    public float damageLerpDuration;
+    //private float currentHealth;
+    private float targetHealth;
+    private Coroutine damageCoroutine;
+
+    HealthUI healthUI;
+
+    //tester
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            TakeDamage(3);
+        }
+    }
+
     private void Awake()
     {
         if (Instance == null)
@@ -31,7 +47,12 @@ public class PlayerStatsManager : MonoBehaviour
 
     private void InitializeStats()
     {
+        healthUI = GetComponent<HealthUI>();
+
         CurrentHealth = MaxHealth;
+        
+        targetHealth = MaxHealth;
+        healthUI.StartSlider(MaxHealth);
     }
 
     public void TakeDamage(int damage)
@@ -41,6 +62,7 @@ public class PlayerStatsManager : MonoBehaviour
         {
             CurrentHealth = 0;
         }
+        healthUI.UpdateSlider(CurrentHealth);
     }
 
     public void Heal(int amount)
@@ -50,5 +72,6 @@ public class PlayerStatsManager : MonoBehaviour
         {
             CurrentHealth = MaxHealth;
         }
+        healthUI.UpdateSlider(CurrentHealth);
     }
 }

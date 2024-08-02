@@ -5,17 +5,17 @@ using UnityEngine.UI;
 
 public class HealthUI : MonoBehaviour
 {
-    public Slider healthSlider3D;
+    public Slider healthSlider;
 
-    public void Start3DSlider(float maxValue)
+    public void StartSlider(float maxHealth)
     {
-        healthSlider3D.maxValue = maxValue;
-        healthSlider3D.value = maxValue;
+        healthSlider.maxValue = maxHealth;
+        healthSlider.value = maxHealth;
     }
 
-    public void Update3DSlider(float value)
+    public void UpdateSlider(float currentHealth)
     {
-        healthSlider3D.value = value;
+        healthSlider.value = currentHealth;
     }
 
 }
